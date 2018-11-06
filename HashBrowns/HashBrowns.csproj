@@ -1,7 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <BuildNumber Condition=" '$(APPVEYOR_BUILD_NUMBER)' != '' ">$(APPVEYOR_BUILD_NUMBER)</BuildNumber>
+    <!-- for AppVeyor -->
+    <BuildNumber Condition=" '$(BUILD_NUMBER)' != '' ">$(BUILD_NUMBER)</BuildNumber>
+    <!-- for Team City -->
+    <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>James Craig</Authors>
+    <Description>HashBrowns is a library to help simplify encryption and hashing within .Net.</Description>
+    <Copyright>Copyright 2018</Copyright>
+    <PackageLicenseUrl>https://github.com/JaCraig/HashBrowns/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/JaCraig/HashBrowns/</PackageProjectUrl>
+    <PackageTags>MD5, SHA1, SHA256, SHA512, AES, DES, TripleDES, Rijndael</PackageTags>
+    <Version>1.0.$(BuildNumber)</Version>
   </PropertyGroup>
 
   <ItemGroup>
