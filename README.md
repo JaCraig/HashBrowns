@@ -22,7 +22,7 @@ However instead of having the IoC container create the class, you can also use t
 
 Similarly you can decrypt:
 
-    var DecryptedData = EncryptedData.Encrypt(Key, Salt, HashingAlgorithm, NumberIterations, InitialVector, KeySize, EncryptionAlgorithm);
+    var DecryptedData = EncryptedData.Decrypt(Key, Salt, HashingAlgorithm, NumberIterations, InitialVector, KeySize, EncryptionAlgorithm);
 
 Also hashing is available:
 
