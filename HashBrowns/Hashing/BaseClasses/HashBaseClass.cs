@@ -39,14 +39,12 @@ namespace HashBrowns.Hashing.BaseClasses
         /// <returns>The hash of the data.</returns>
         public byte[] Hash(byte[] data)
         {
-            using (HashAlgorithm Algorithm = GetAlgorithm())
-            {
-                if (Algorithm == null)
-                    return Array.Empty<byte>();
-                var Result = Algorithm.ComputeHash(data);
-                Algorithm.Clear();
-                return Result;
-            }
+            using HashAlgorithm Algorithm = GetAlgorithm();
+            if (Algorithm == null)
+                return Array.Empty<byte>();
+            var Result = Algorithm.ComputeHash(data);
+            Algorithm.Clear();
+            return Result;
         }
 
         /// <summary>

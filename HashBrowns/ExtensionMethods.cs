@@ -101,7 +101,7 @@ namespace HashBrowns
                     byte[] initialVector,
                     int keySize,
                     SymmetricAlgorithms algorithm,
-                    Encoding encoding = null)
+                    Encoding? encoding = null)
         {
             return data.ToByteArray(encoding)
                        .Decrypt(key, initialVector, keySize, algorithm);
@@ -128,7 +128,7 @@ namespace HashBrowns
                     byte[] initialVector,
                     int keySize,
                     SymmetricAlgorithms algorithm,
-                    Encoding encoding = null)
+                    Encoding? encoding = null)
         {
             return data.ToByteArray(encoding)
                        .Decrypt(key, salt, hashingAlgorithm, passwordIterations, initialVector, keySize, algorithm);
@@ -188,7 +188,7 @@ namespace HashBrowns
                     byte[] initialVector,
                     int keySize,
                     SymmetricAlgorithms algorithm,
-                    Encoding encoding = null)
+                    Encoding? encoding = null)
         {
             return data.ToByteArray(encoding)
                        .Encrypt(key, salt, hashingAlgorithm, passwordIterations, initialVector, keySize, algorithm);
@@ -234,7 +234,7 @@ namespace HashBrowns
                     byte[] initialVector,
                     int keySize,
                     SymmetricAlgorithms algorithm,
-                    Encoding encoding = null)
+                    Encoding? encoding = null)
         {
             return data.ToByteArray(encoding)
                        .Encrypt(key, initialVector, keySize, algorithm);
@@ -260,7 +260,7 @@ namespace HashBrowns
         /// <param name="algorithm">The algorithm.</param>
         /// <param name="encoding">The encoding of the text (defaults to UTF8).</param>
         /// <returns>The hashed result.</returns>
-        public static byte[] Hash(this string data, HashingAlgorithms algorithm, Encoding encoding = null)
+        public static byte[] Hash(this string data, HashingAlgorithms algorithm, Encoding? encoding = null)
         {
             if (string.IsNullOrEmpty(data))
                 return Array.Empty<byte>();

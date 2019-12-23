@@ -61,7 +61,7 @@ namespace HashBrowns
         /// <param name="hashingAlgorithm">The hashing algorithm.</param>
         /// <param name="passwordIterations">The password iterations.</param>
         /// <returns>The resulting key.</returns>
-        public PasswordDeriveBytes CreateKey(byte[] key,
+        public static PasswordDeriveBytes CreateKey(byte[] key,
                     byte[] salt,
                     HashingAlgorithms hashingAlgorithm,
                     int passwordIterations)

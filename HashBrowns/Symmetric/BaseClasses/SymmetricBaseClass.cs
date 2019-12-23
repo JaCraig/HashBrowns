@@ -48,11 +48,9 @@ namespace HashBrowns.Symmetric.BaseClasses
         /// <returns>The initial vector.</returns>
         public byte[] CreateInitialVector()
         {
-            using (var Algorithm = GetAlgorithm())
-            {
-                Algorithm.GenerateIV();
-                return Algorithm.IV;
-            }
+            using var Algorithm = GetAlgorithm();
+            Algorithm.GenerateIV();
+            return Algorithm.IV;
         }
 
         /// <summary>
@@ -61,11 +59,9 @@ namespace HashBrowns.Symmetric.BaseClasses
         /// <returns>The key.</returns>
         public byte[] CreateKey()
         {
-            using (var Algorithm = GetAlgorithm())
-            {
-                Algorithm.GenerateKey();
-                return (byte[])Algorithm.Key.Clone();
-            }
+            using var Algorithm = GetAlgorithm();
+            Algorithm.GenerateKey();
+            return (byte[])Algorithm.Key.Clone();
         }
 
         /// <summary>
@@ -85,10 +81,8 @@ namespace HashBrowns.Symmetric.BaseClasses
         {
             if (data == null || key == null || salt == null || initialVector == null)
                 return Array.Empty<byte>();
-            using (PasswordDeriveBytes TempKey = new PasswordDeriveBytes(key, salt, hashingAlgorithm.ToString(), passwordIterations))
-            {
-                return Decrypt(data, TempKey, initialVector, keySize);
-            }
+            using PasswordDeriveBytes TempKey = new PasswordDeriveBytes(key, salt, hashingAlgorithm.ToString(), passwordIterations);
+            return Decrypt(data, TempKey, initialVector, keySize);
         }
 
         /// <summary>
@@ -102,26 +96,20 @@ namespace HashBrowns.Symmetric.BaseClasses
         /// <returns>The decrypted data.</returns>
         public byte[] Decrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize)
         {
-            using (SymmetricAlgorithm SymmetricKey = GetAlgorithm())
+            using SymmetricAlgorithm SymmetricKey = GetAlgorithm();
+            byte[] PlainTextBytes = Array.Empty<byte>();
+            if (SymmetricKey != null)
             {
-                byte[] PlainTextBytes = new byte[0];
-                if (SymmetricKey != null)
+                SymmetricKey.Mode = CipherMode.CBC;
+                using (ICryptoTransform Decryptor = SymmetricKey.CreateDecryptor(key.GetBytes(keySize / 8), initialVector))
                 {
-                    SymmetricKey.Mode = CipherMode.CBC;
-                    using (ICryptoTransform Decryptor = SymmetricKey.CreateDecryptor(key.GetBytes(keySize / 8), initialVector))
-                    {
-                        using (MemoryStream MemStream = new MemoryStream(data))
-                        {
-                            using (CryptoStream CryptoStream = new CryptoStream(MemStream, Decryptor, CryptoStreamMode.Read))
-                            {
-                                PlainTextBytes = CryptoStream.ReadAllBinary();
-                            }
-                        }
-                    }
-                    SymmetricKey.Clear();
+                    using MemoryStream MemStream = new MemoryStream(data);
+                    using CryptoStream CryptoStream = new CryptoStream(MemStream, Decryptor, CryptoStreamMode.Read);
+                    PlainTextBytes = CryptoStream.ReadAllBinary();
                 }
-                return PlainTextBytes;
+                SymmetricKey.Clear();
             }
+            return PlainTextBytes;
         }
 
         /// <summary>
@@ -141,10 +129,8 @@ namespace HashBrowns.Symmetric.BaseClasses
         {
             if (data == null || key == null || salt == null || initialVector == null)
                 return Array.Empty<byte>();
-            using (PasswordDeriveBytes TempKey = new PasswordDeriveBytes(key, salt, hashingAlgorithm.ToString(), passwordIterations))
-            {
-                return Encrypt(data, TempKey, initialVector, keySize);
-            }
+            using PasswordDeriveBytes TempKey = new PasswordDeriveBytes(key, salt, hashingAlgorithm.ToString(), passwordIterations);
+            return Encrypt(data, TempKey, initialVector, keySize);
         }
 
         /// <summary>
@@ -159,28 +145,22 @@ namespace HashBrowns.Symmetric.BaseClasses
         /// <returns>The encrypted data.</returns>
         public byte[] Encrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize)
         {
-            using (SymmetricAlgorithm SymmetricKey = GetAlgorithm())
+            using SymmetricAlgorithm SymmetricKey = GetAlgorithm();
+            byte[] CipherTextBytes = Array.Empty<byte>();
+            if (SymmetricKey != null)
             {
-                byte[] CipherTextBytes = new byte[0];
-                if (SymmetricKey != null)
+                SymmetricKey.Mode = CipherMode.CBC;
+                using (ICryptoTransform Encryptor = SymmetricKey.CreateEncryptor(key.GetBytes(keySize / 8), initialVector))
                 {
-                    SymmetricKey.Mode = CipherMode.CBC;
-                    using (ICryptoTransform Encryptor = SymmetricKey.CreateEncryptor(key.GetBytes(keySize / 8), initialVector))
-                    {
-                        using (MemoryStream MemStream = new MemoryStream())
-                        {
-                            using (CryptoStream CryptoStream = new CryptoStream(MemStream, Encryptor, CryptoStreamMode.Write))
-                            {
-                                CryptoStream.Write(data, 0, data.Length);
-                                CryptoStream.FlushFinalBlock();
-                                CipherTextBytes = MemStream.ToArray();
-                            }
-                        }
-                    }
-                    SymmetricKey.Clear();
+                    using MemoryStream MemStream = new MemoryStream();
+                    using CryptoStream CryptoStream = new CryptoStream(MemStream, Encryptor, CryptoStreamMode.Write);
+                    CryptoStream.Write(data, 0, data.Length);
+                    CryptoStream.FlushFinalBlock();
+                    CipherTextBytes = MemStream.ToArray();
                 }
-                return CipherTextBytes;
+                SymmetricKey.Clear();
             }
+            return CipherTextBytes;
         }
 
         /// <summary>
