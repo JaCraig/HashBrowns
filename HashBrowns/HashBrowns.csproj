@@ -19,8 +19,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BigBook" Version="3.0.47" />
-    <PackageReference Include="Canister.IoC" Version="3.0.4" />
+    <PackageReference Include="BigBook" Version="3.0.56" />
+    <PackageReference Include="Canister.IoC" Version="4.0.0" />
   </ItemGroup>
 
 </Project>

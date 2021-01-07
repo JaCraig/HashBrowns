@@ -50,7 +50,7 @@ namespace HashBrowns
         {
             if (data == null)
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper.Resolve<CryptoManager>()?.Decrypt(
+            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Decrypt(
                 data,
                 key,
                 salt,
@@ -78,7 +78,7 @@ namespace HashBrowns
         {
             if (data == null)
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper.Resolve<CryptoManager>()?.Decrypt(
+            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Decrypt(
                 data,
                 key,
                 initialVector,
@@ -156,7 +156,7 @@ namespace HashBrowns
         {
             if (data == null)
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper.Resolve<CryptoManager>()?.Encrypt(
+            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Encrypt(
                 data,
                 key,
                 salt,
@@ -211,7 +211,7 @@ namespace HashBrowns
         {
             if (data == null)
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper.Resolve<CryptoManager>()?.Encrypt(
+            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Encrypt(
                 data,
                 key,
                 initialVector,
@@ -250,7 +250,7 @@ namespace HashBrowns
         {
             if (data == null)
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper.Resolve<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
+            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
         }
 
         /// <summary>
@@ -264,7 +264,7 @@ namespace HashBrowns
         {
             if (string.IsNullOrEmpty(data))
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper.Resolve<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
+            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
         }
     }
 }

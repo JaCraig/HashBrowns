@@ -1,6 +1,5 @@
-﻿using HashBrowns.Registration;
+﻿using Microsoft.Extensions.DependencyInjection;
 using System;
-using System.Reflection;
 using Xunit;
 
 namespace HashBrowns.Tests.Fixtures
@@ -16,9 +15,8 @@ namespace HashBrowns.Tests.Fixtures
         {
             if (Canister.Builder.Bootstrapper == null)
             {
-                Canister.Builder.CreateContainer(null, typeof(CanisterFixture).GetTypeInfo().Assembly)
-                   .RegisterHashBrowns()
-                   .Build();
+                new ServiceCollection().AddCanisterModules(x => x.AddAssembly(typeof(CanisterFixture).Assembly)
+                   .RegisterHashBrowns());
             }
         }
 

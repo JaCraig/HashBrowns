@@ -14,25 +14,23 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using BigBook.Registration;
 using Canister.Interfaces;
-using System.Reflection;
 
-namespace HashBrowns.Registration
+namespace Microsoft.Extensions.DependencyInjection
 {
     /// <summary>
     /// Registration extension methods
     /// </summary>
-    public static class Registration
+    public static class HashRegistration
     {
         /// <summary>
         /// Registers the library with the bootstrapper.
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
         /// <returns>The bootstrapper</returns>
-        public static IBootstrapper RegisterHashBrowns(this IBootstrapper bootstrapper)
+        public static ICanisterConfiguration? RegisterHashBrowns(this ICanisterConfiguration? bootstrapper)
         {
-            return bootstrapper.AddAssembly(typeof(Registration).GetTypeInfo().Assembly)
+            return bootstrapper?.AddAssembly(typeof(HashRegistration).Assembly)
                                .RegisterBigBookOfDataTypes();
         }
     }
