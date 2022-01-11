@@ -6,8 +6,15 @@ using Xunit;
 
 namespace HashBrowns.Tests
 {
-    public class CryptoManagerTests : TestBaseClass
+    public class CryptoManagerTests : TestBaseClass<CryptoManager>
     {
+        public CryptoManagerTests()
+        {
+            TestObject2 = Canister.Builder.Bootstrapper.Resolve<CryptoManager>();
+        }
+
+        private CryptoManager TestObject2 { get; set; }
+
         public static readonly TheoryData<HashingAlgorithms> HashTestData = new TheoryData<HashingAlgorithms>
         {
             {HashingAlgorithms.HMACMD5},
@@ -31,30 +38,28 @@ namespace HashBrowns.Tests
             {SymmetricAlgorithms.TripleDES,192},
         };
 
-        private readonly CryptoManager TestObject = Canister.Builder.Bootstrapper.Resolve<CryptoManager>();
-
         [Theory]
         [MemberData(nameof(SymmetricTestData))]
         public void CreateInitialVector(SymmetricAlgorithms algorithms, int keySize)
         {
-            Assert.NotNull(TestObject.CreateRandomInitialVector(algorithms));
+            Assert.NotNull(TestObject2.CreateRandomInitialVector(algorithms));
         }
 
         [Theory]
         [MemberData(nameof(SymmetricTestData))]
         public void CreateKey(SymmetricAlgorithms algorithms, int keySize)
         {
-            Assert.NotNull(TestObject.CreateRandomKey(algorithms));
+            Assert.NotNull(TestObject2.CreateRandomKey(algorithms));
         }
 
         [Theory]
         [MemberData(nameof(SymmetricTestData))]
         public void Decrypt(SymmetricAlgorithms algorithms, int keySize)
         {
-            var Key = TestObject.CreateRandomKey(algorithms);
-            var IV = TestObject.CreateRandomInitialVector(algorithms);
-            Assert.NotNull(TestObject.Decrypt(
-                TestObject.Encrypt(
+            var Key = TestObject2.CreateRandomKey(algorithms);
+            var IV = TestObject2.CreateRandomInitialVector(algorithms);
+            Assert.NotNull(TestObject2.Decrypt(
+                TestObject2.Encrypt(
                     new byte[] { 0, 1, 2, 3, 4, 5 },
                     (byte[])Key.Clone(),
                     "Salt".ToByteArray(),
@@ -76,9 +81,9 @@ namespace HashBrowns.Tests
         [MemberData(nameof(SymmetricTestData))]
         public void Encrypt(SymmetricAlgorithms algorithms, int keySize)
         {
-            var Key = TestObject.CreateRandomKey(algorithms);
-            var IV = TestObject.CreateRandomInitialVector(algorithms);
-            Assert.NotNull(TestObject.Encrypt(
+            var Key = TestObject2.CreateRandomKey(algorithms);
+            var IV = TestObject2.CreateRandomInitialVector(algorithms);
+            Assert.NotNull(TestObject2.Encrypt(
                     new byte[] { 0, 1, 2, 3, 4, 5 },
                     (byte[])Key.Clone(),
                     "Salt".ToByteArray(),
@@ -93,7 +98,7 @@ namespace HashBrowns.Tests
         [MemberData(nameof(HashTestData))]
         public void Hash(HashingAlgorithms algorithms)
         {
-            Assert.NotNull(TestObject.Hash(new byte[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, algorithms));
+            Assert.NotNull(TestObject2.Hash(new byte[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, algorithms));
         }
     }
 }

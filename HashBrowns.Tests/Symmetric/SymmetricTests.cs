@@ -3,12 +3,15 @@ using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric;
 using HashBrowns.Symmetric.Interfaces;
 using HashBrowns.Tests.BaseClasses;
+using System;
 using Xunit;
 
 namespace HashBrowns.Tests.Symmetric
 {
     public class SymmetricTests : TestBaseClass
     {
+        protected override Type ObjectType { get; set; }
+
         public static readonly TheoryData<ISymmetric, int> TestData = new TheoryData<ISymmetric, int>
         {
             {new Aes(),256 },

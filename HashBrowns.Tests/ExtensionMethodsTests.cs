@@ -2,6 +2,7 @@
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric.Enums;
 using HashBrowns.Tests.BaseClasses;
+using System;
 using System.Text;
 using Xunit;
 
@@ -9,6 +10,8 @@ namespace HashBrowns.Tests
 {
     public class ExtensionMethodsTests : TestBaseClass
     {
+        protected override Type ObjectType { get; set; } = typeof(ExtensionMethods);
+
         public static readonly TheoryData<HashingAlgorithms> HashTestData = new TheoryData<HashingAlgorithms>
         {
             {HashingAlgorithms.HMACMD5},

@@ -1,12 +1,15 @@
 ﻿using HashBrowns.Hashing;
 using HashBrowns.Hashing.Interfaces;
 using HashBrowns.Tests.BaseClasses;
+using System;
 using Xunit;
 
 namespace HashBrowns.Tests.Hashing
 {
     public class HashTests : TestBaseClass
     {
+        protected override Type ObjectType { get; set; }
+
         public static readonly TheoryData<IHash> TestData = new TheoryData<IHash>
         {
             {new HMACMD5Hasher()},

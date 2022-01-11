@@ -48,8 +48,10 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            if (data == null)
+            if (data is null || string.IsNullOrEmpty(algorithm) || key is null)
                 return Array.Empty<byte>();
+            initialVector ??= Array.Empty<byte>();
+            salt ??= Array.Empty<byte>();
             return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Decrypt(
                 data,
                 key,
@@ -76,8 +78,9 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            if (data == null)
+            if (data is null || string.IsNullOrEmpty(algorithm) || key is null)
                 return Array.Empty<byte>();
+            initialVector ??= Array.Empty<byte>();
             return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Decrypt(
                 data,
                 key,
@@ -154,8 +157,10 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            if (data == null)
+            if (data is null || string.IsNullOrEmpty(algorithm) || key is null)
                 return Array.Empty<byte>();
+            initialVector ??= Array.Empty<byte>();
+            salt ??= Array.Empty<byte>();
             return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Encrypt(
                 data,
                 key,
@@ -209,8 +214,10 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            if (data == null)
+            if (data is null || string.IsNullOrEmpty(algorithm) || key is null)
                 return Array.Empty<byte>();
+            initialVector ??= Array.Empty<byte>();
+
             return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Encrypt(
                 data,
                 key,
@@ -248,7 +255,7 @@ namespace HashBrowns
         /// <returns>The hashed result.</returns>
         public static byte[] Hash(this byte[] data, HashingAlgorithms algorithm)
         {
-            if (data == null)
+            if (data is null || string.IsNullOrEmpty(algorithm))
                 return Array.Empty<byte>();
             return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
         }
@@ -262,7 +269,7 @@ namespace HashBrowns
         /// <returns>The hashed result.</returns>
         public static byte[] Hash(this string data, HashingAlgorithms algorithm, Encoding? encoding = null)
         {
-            if (string.IsNullOrEmpty(data))
+            if (string.IsNullOrEmpty(data) || string.IsNullOrEmpty(algorithm))
                 return Array.Empty<byte>();
             return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
         }
