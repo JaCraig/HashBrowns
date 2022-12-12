@@ -6,7 +6,7 @@
     <BuildNumber Condition=" '$(BUILD_NUMBER)' != '' ">$(BUILD_NUMBER)</BuildNumber>
     <!-- for Team City -->
     <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
-	  <TargetFrameworks>netstandard2.1;net5.0;net6.0</TargetFrameworks>
+	  <TargetFrameworks>net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>James Craig</Authors>
     <Description>HashBrowns is a library to help simplify encryption and hashing within .Net.</Description>
@@ -14,13 +14,13 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/JaCraig/HashBrowns/</PackageProjectUrl>
     <PackageTags>MD5, SHA1, SHA256, SHA512, AES, DES, TripleDES, Rijndael</PackageTags>
-    <Version>2.0.$(BuildNumber)</Version>
+    <Version>3.0.$(BuildNumber)</Version>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BigBook" Version="4.0.18" />
-    <PackageReference Include="Canister.IoC" Version="4.0.11" />
+    <PackageReference Include="BigBook" Version="5.0.0" />
+    <PackageReference Include="Canister.IoC" Version="5.0.1" />
   </ItemGroup>
 
 </Project>

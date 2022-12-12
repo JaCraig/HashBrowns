@@ -36,11 +36,11 @@ namespace HashBrowns.Modules
         /// Loads the module using the bootstrapper
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
-        public void Load(IBootstrapper? bootstrapper)
+        public void Load(IServiceCollection? bootstrapper)
         {
-            bootstrapper?.RegisterAll<IHash>()
-                         .RegisterAll<ISymmetric>()
-                         .Register<CryptoManager>(ServiceLifetime.Singleton);
+            bootstrapper?.AddAllTransient<IHash>()
+                         ?.AddAllTransient<ISymmetric>()
+                         ?.AddSingleton<CryptoManager>();
         }
     }
 }

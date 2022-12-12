@@ -2,6 +2,7 @@
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric.Enums;
 using HashBrowns.Tests.BaseClasses;
+using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 
 namespace HashBrowns.Tests
@@ -10,7 +11,7 @@ namespace HashBrowns.Tests
     {
         public CryptoManagerTests()
         {
-            TestObject2 = Canister.Builder.Bootstrapper.Resolve<CryptoManager>();
+            TestObject2 = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider()?.GetService<CryptoManager>();
         }
 
         private CryptoManager TestObject2 { get; set; }

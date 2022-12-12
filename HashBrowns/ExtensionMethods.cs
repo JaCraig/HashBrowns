@@ -17,6 +17,7 @@ limitations under the License.
 using BigBook;
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric.Enums;
+using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Security.Cryptography;
 using System.Text;
@@ -28,6 +29,16 @@ namespace HashBrowns
     /// </summary>
     public static class ExtensionMethods
     {
+        /// <summary>
+        /// The service provider lock
+        /// </summary>
+        private static readonly object ServiceProviderLock = new object();
+
+        /// <summary>
+        /// The service provider
+        /// </summary>
+        private static IServiceProvider ServiceProvider;
+
         /// <summary>
         /// Decrypts the specified data.
         /// </summary>
@@ -52,7 +63,7 @@ namespace HashBrowns
                 return Array.Empty<byte>();
             initialVector ??= Array.Empty<byte>();
             salt ??= Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Decrypt(
+            return GetServiceProvider()?.GetService<CryptoManager>()?.Decrypt(
                 data,
                 key,
                 salt,
@@ -81,7 +92,7 @@ namespace HashBrowns
             if (data is null || string.IsNullOrEmpty(algorithm) || key is null)
                 return Array.Empty<byte>();
             initialVector ??= Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Decrypt(
+            return GetServiceProvider()?.GetService<CryptoManager>()?.Decrypt(
                 data,
                 key,
                 initialVector,
@@ -161,7 +172,7 @@ namespace HashBrowns
                 return Array.Empty<byte>();
             initialVector ??= Array.Empty<byte>();
             salt ??= Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Encrypt(
+            return GetServiceProvider()?.GetService<CryptoManager>()?.Encrypt(
                 data,
                 key,
                 salt,
@@ -218,7 +229,7 @@ namespace HashBrowns
                 return Array.Empty<byte>();
             initialVector ??= Array.Empty<byte>();
 
-            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Encrypt(
+            return GetServiceProvider()?.GetService<CryptoManager>()?.Encrypt(
                 data,
                 key,
                 initialVector,
@@ -257,7 +268,7 @@ namespace HashBrowns
         {
             if (data is null || string.IsNullOrEmpty(algorithm))
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
+            return GetServiceProvider()?.GetService<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
         }
 
         /// <summary>
@@ -271,7 +282,24 @@ namespace HashBrowns
         {
             if (string.IsNullOrEmpty(data) || string.IsNullOrEmpty(algorithm))
                 return Array.Empty<byte>();
-            return Canister.Builder.Bootstrapper?.Resolve<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
+            return GetServiceProvider()?.GetService<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
+        }
+
+        /// <summary>
+        /// Gets the service provider.
+        /// </summary>
+        /// <returns></returns>
+        private static IServiceProvider GetServiceProvider()
+        {
+            if (ServiceProvider is not null)
+                return ServiceProvider;
+            lock (ServiceProviderLock)
+            {
+                if (ServiceProvider is not null)
+                    return ServiceProvider;
+                ServiceProvider = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
+            }
+            return ServiceProvider;
         }
     }
 }
