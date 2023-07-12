@@ -1,11 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <BuildNumber Condition=" '$(APPVEYOR_BUILD_NUMBER)' != '' ">$(APPVEYOR_BUILD_NUMBER)</BuildNumber>
-    <!-- for AppVeyor -->
-    <BuildNumber Condition=" '$(BUILD_NUMBER)' != '' ">$(BUILD_NUMBER)</BuildNumber>
-    <!-- for Team City -->
-    <BuildNumber Condition=" '$(BuildNumber)' == '' ">0</BuildNumber>
 	  <TargetFrameworks>net6.0</TargetFrameworks>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>James Craig</Authors>
@@ -14,13 +9,51 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/JaCraig/HashBrowns/</PackageProjectUrl>
     <PackageTags>MD5, SHA1, SHA256, SHA512, AES, DES, TripleDES, Rijndael</PackageTags>
-    <Version>3.0.$(BuildNumber)</Version>
+    <Version>3.0.1</Version>
     <Nullable>enable</Nullable>
+    <Title>HashBrowns</Title>
+    <PackageIcon>Icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/JaCraig/HashBrowns/</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>https://github.com/JaCraig/HashBrowns/blob/master/CHANGELOG.md</PackageReleaseNotes>
+	  <PublishRepositoryUrl>true</PublishRepositoryUrl>
+	  <EmbedUntrackedSources>true</EmbedUntrackedSources>
+	  <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+	  <IncludeSymbols>true</IncludeSymbols>
+	  <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+	  <EnableNETAnalyzers>true</EnableNETAnalyzers>
+	  
+	  <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+	  <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+	  <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
+	  
   </PropertyGroup>
-
+	<PropertyGroup Condition="'$(GITHUB_ACTIONS)' == 'true'">
+		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
+	</PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="BigBook" Version="5.0.0" />
-    <PackageReference Include="Canister.IoC" Version="5.0.1" />
+    <None Include="..\Icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BigBook" Version="5.0.4" />
+	  <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
+	  <PackageReference Include="Microsoft.CodeAnalysis.NetAnalyzers" Version="7.0.3">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+  </ItemGroup>
+	<Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
+		<Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
+		<Exec Command="dotnet husky install" StandardOutputImportance="Low" StandardErrorImportance="High" WorkingDirectory=".." />
+	</Target>
 </Project>

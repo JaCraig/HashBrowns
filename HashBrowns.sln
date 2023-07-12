@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28010.2048
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashBrowns", "HashBrowns\HashBrowns.csproj", "{FBA6635F-AFE7-4ACB-AFB6-0F11679EA8F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashBrowns", "HashBrowns\HashBrowns.csproj", "{FBA6635F-AFE7-4ACB-AFB6-0F11679EA8F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashBrowns.Tests", "HashBrowns.Tests\HashBrowns.Tests.csproj", "{D0DEF719-C3E9-40C0-940F-43DB57C71F76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashBrowns.Tests", "HashBrowns.Tests\HashBrowns.Tests.csproj", "{D0DEF719-C3E9-40C0-940F-43DB57C71F76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashBrowns.Example", "HashBrowns.Example\HashBrowns.Example.csproj", "{860E3D73-23DB-455B-962C-694695550350}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D0DEF719-C3E9-40C0-940F-43DB57C71F76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0DEF719-C3E9-40C0-940F-43DB57C71F76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0DEF719-C3E9-40C0-940F-43DB57C71F76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860E3D73-23DB-455B-962C-694695550350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860E3D73-23DB-455B-962C-694695550350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860E3D73-23DB-455B-962C-694695550350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860E3D73-23DB-455B-962C-694695550350}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
