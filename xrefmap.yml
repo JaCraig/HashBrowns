@@ -1,0 +1,1345 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: HashBrowns
+  name: HashBrowns
+  href: api/HashBrowns.html
+  commentId: N:HashBrowns
+  fullName: HashBrowns
+  nameWithType: HashBrowns
+- uid: HashBrowns.CryptoManager
+  name: CryptoManager
+  href: api/HashBrowns.CryptoManager.html
+  commentId: T:HashBrowns.CryptoManager
+  fullName: HashBrowns.CryptoManager
+  nameWithType: CryptoManager
+- uid: HashBrowns.CryptoManager.#ctor(System.Collections.Generic.IEnumerable{HashBrowns.Hashing.Interfaces.IHash},System.Collections.Generic.IEnumerable{HashBrowns.Symmetric.Interfaces.ISymmetric})
+  name: CryptoManager(IEnumerable<IHash>, IEnumerable<ISymmetric>)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager__ctor_System_Collections_Generic_IEnumerable_HashBrowns_Hashing_Interfaces_IHash__System_Collections_Generic_IEnumerable_HashBrowns_Symmetric_Interfaces_ISymmetric__
+  commentId: M:HashBrowns.CryptoManager.#ctor(System.Collections.Generic.IEnumerable{HashBrowns.Hashing.Interfaces.IHash},System.Collections.Generic.IEnumerable{HashBrowns.Symmetric.Interfaces.ISymmetric})
+  name.vb: New(IEnumerable(Of IHash), IEnumerable(Of ISymmetric))
+  fullName: HashBrowns.CryptoManager.CryptoManager(System.Collections.Generic.IEnumerable<HashBrowns.Hashing.Interfaces.IHash>, System.Collections.Generic.IEnumerable<HashBrowns.Symmetric.Interfaces.ISymmetric>)
+  fullName.vb: HashBrowns.CryptoManager.New(System.Collections.Generic.IEnumerable(Of HashBrowns.Hashing.Interfaces.IHash), System.Collections.Generic.IEnumerable(Of HashBrowns.Symmetric.Interfaces.ISymmetric))
+  nameWithType: CryptoManager.CryptoManager(IEnumerable<IHash>, IEnumerable<ISymmetric>)
+  nameWithType.vb: CryptoManager.New(IEnumerable(Of IHash), IEnumerable(Of ISymmetric))
+- uid: HashBrowns.CryptoManager.#ctor*
+  name: CryptoManager
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager__ctor_
+  commentId: Overload:HashBrowns.CryptoManager.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HashBrowns.CryptoManager.CryptoManager
+  fullName.vb: HashBrowns.CryptoManager.New
+  nameWithType: CryptoManager.CryptoManager
+  nameWithType.vb: CryptoManager.New
+- uid: HashBrowns.CryptoManager.CreateKey(System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32)
+  name: CreateKey(byte[], byte[], HashingAlgorithms, int)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_CreateKey_System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_
+  commentId: M:HashBrowns.CryptoManager.CreateKey(System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32)
+  name.vb: CreateKey(Byte(), Byte(), HashingAlgorithms, Integer)
+  fullName: HashBrowns.CryptoManager.CreateKey(byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int)
+  fullName.vb: HashBrowns.CryptoManager.CreateKey(Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer)
+  nameWithType: CryptoManager.CreateKey(byte[], byte[], HashingAlgorithms, int)
+  nameWithType.vb: CryptoManager.CreateKey(Byte(), Byte(), HashingAlgorithms, Integer)
+- uid: HashBrowns.CryptoManager.CreateKey*
+  name: CreateKey
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_CreateKey_
+  commentId: Overload:HashBrowns.CryptoManager.CreateKey
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.CreateKey
+  nameWithType: CryptoManager.CreateKey
+- uid: HashBrowns.CryptoManager.CreateRandomInitialVector(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: CreateRandomInitialVector(SymmetricAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_CreateRandomInitialVector_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.CreateRandomInitialVector(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName: HashBrowns.CryptoManager.CreateRandomInitialVector(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: CryptoManager.CreateRandomInitialVector(SymmetricAlgorithms)
+- uid: HashBrowns.CryptoManager.CreateRandomInitialVector*
+  name: CreateRandomInitialVector
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_CreateRandomInitialVector_
+  commentId: Overload:HashBrowns.CryptoManager.CreateRandomInitialVector
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.CreateRandomInitialVector
+  nameWithType: CryptoManager.CreateRandomInitialVector
+- uid: HashBrowns.CryptoManager.CreateRandomKey(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: CreateRandomKey(SymmetricAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_CreateRandomKey_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.CreateRandomKey(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName: HashBrowns.CryptoManager.CreateRandomKey(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: CryptoManager.CreateRandomKey(SymmetricAlgorithms)
+- uid: HashBrowns.CryptoManager.CreateRandomKey*
+  name: CreateRandomKey
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_CreateRandomKey_
+  commentId: Overload:HashBrowns.CryptoManager.CreateRandomKey
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.CreateRandomKey
+  nameWithType: CryptoManager.CreateRandomKey
+- uid: HashBrowns.CryptoManager.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Decrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.CryptoManager.Decrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.CryptoManager.Decrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: CryptoManager.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: CryptoManager.Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.CryptoManager.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Decrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Decrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.CryptoManager.Decrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.CryptoManager.Decrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: CryptoManager.Decrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: CryptoManager.Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.CryptoManager.Decrypt*
+  name: Decrypt
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Decrypt_
+  commentId: Overload:HashBrowns.CryptoManager.Decrypt
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.Decrypt
+  nameWithType: CryptoManager.Decrypt
+- uid: HashBrowns.CryptoManager.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Encrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.CryptoManager.Encrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.CryptoManager.Encrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: CryptoManager.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: CryptoManager.Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.CryptoManager.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Encrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Encrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.CryptoManager.Encrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.CryptoManager.Encrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: CryptoManager.Encrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: CryptoManager.Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.CryptoManager.Encrypt*
+  name: Encrypt
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Encrypt_
+  commentId: Overload:HashBrowns.CryptoManager.Encrypt
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.Encrypt
+  nameWithType: CryptoManager.Encrypt
+- uid: HashBrowns.CryptoManager.Hash(System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms)
+  name: Hash(byte[], HashingAlgorithms)
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Hash_System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_
+  commentId: M:HashBrowns.CryptoManager.Hash(System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms)
+  name.vb: Hash(Byte(), HashingAlgorithms)
+  fullName: HashBrowns.CryptoManager.Hash(byte[], HashBrowns.Hashing.Enums.HashingAlgorithms)
+  fullName.vb: HashBrowns.CryptoManager.Hash(Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms)
+  nameWithType: CryptoManager.Hash(byte[], HashingAlgorithms)
+  nameWithType.vb: CryptoManager.Hash(Byte(), HashingAlgorithms)
+- uid: HashBrowns.CryptoManager.Hash*
+  name: Hash
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Hash_
+  commentId: Overload:HashBrowns.CryptoManager.Hash
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.Hash
+  nameWithType: CryptoManager.Hash
+- uid: HashBrowns.CryptoManager.Hashes
+  name: Hashes
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Hashes
+  commentId: P:HashBrowns.CryptoManager.Hashes
+  fullName: HashBrowns.CryptoManager.Hashes
+  nameWithType: CryptoManager.Hashes
+- uid: HashBrowns.CryptoManager.Hashes*
+  name: Hashes
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Hashes_
+  commentId: Overload:HashBrowns.CryptoManager.Hashes
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.Hashes
+  nameWithType: CryptoManager.Hashes
+- uid: HashBrowns.CryptoManager.Symmetrics
+  name: Symmetrics
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Symmetrics
+  commentId: P:HashBrowns.CryptoManager.Symmetrics
+  fullName: HashBrowns.CryptoManager.Symmetrics
+  nameWithType: CryptoManager.Symmetrics
+- uid: HashBrowns.CryptoManager.Symmetrics*
+  name: Symmetrics
+  href: api/HashBrowns.CryptoManager.html#HashBrowns_CryptoManager_Symmetrics_
+  commentId: Overload:HashBrowns.CryptoManager.Symmetrics
+  isSpec: "True"
+  fullName: HashBrowns.CryptoManager.Symmetrics
+  nameWithType: CryptoManager.Symmetrics
+- uid: HashBrowns.ExtensionMethods
+  name: ExtensionMethods
+  href: api/HashBrowns.ExtensionMethods.html
+  commentId: T:HashBrowns.ExtensionMethods
+  fullName: HashBrowns.ExtensionMethods
+  nameWithType: ExtensionMethods
+- uid: HashBrowns.ExtensionMethods.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Decrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.ExtensionMethods.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.ExtensionMethods.Decrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.ExtensionMethods.Decrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: ExtensionMethods.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: ExtensionMethods.Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.ExtensionMethods.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Decrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Decrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.ExtensionMethods.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.ExtensionMethods.Decrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.ExtensionMethods.Decrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: ExtensionMethods.Decrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: ExtensionMethods.Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.ExtensionMethods.Decrypt(System.String,System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name: Decrypt(string, byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms, Encoding?)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Decrypt_System_String_System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_System_Text_Encoding_
+  commentId: M:HashBrowns.ExtensionMethods.Decrypt(System.String,System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name.vb: Decrypt(String, Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms, Encoding)
+  fullName: HashBrowns.ExtensionMethods.Decrypt(string, byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding?)
+  fullName.vb: HashBrowns.ExtensionMethods.Decrypt(String, Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding)
+  nameWithType: ExtensionMethods.Decrypt(string, byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms, Encoding?)
+  nameWithType.vb: ExtensionMethods.Decrypt(String, Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms, Encoding)
+- uid: HashBrowns.ExtensionMethods.Decrypt(System.String,System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name: Decrypt(string, PasswordDeriveBytes, byte[], int, SymmetricAlgorithms, Encoding?)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Decrypt_System_String_System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_System_Text_Encoding_
+  commentId: M:HashBrowns.ExtensionMethods.Decrypt(System.String,System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name.vb: Decrypt(String, PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms, Encoding)
+  fullName: HashBrowns.ExtensionMethods.Decrypt(string, System.Security.Cryptography.PasswordDeriveBytes, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding?)
+  fullName.vb: HashBrowns.ExtensionMethods.Decrypt(String, System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding)
+  nameWithType: ExtensionMethods.Decrypt(string, PasswordDeriveBytes, byte[], int, SymmetricAlgorithms, Encoding?)
+  nameWithType.vb: ExtensionMethods.Decrypt(String, PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms, Encoding)
+- uid: HashBrowns.ExtensionMethods.Decrypt*
+  name: Decrypt
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Decrypt_
+  commentId: Overload:HashBrowns.ExtensionMethods.Decrypt
+  isSpec: "True"
+  fullName: HashBrowns.ExtensionMethods.Decrypt
+  nameWithType: ExtensionMethods.Decrypt
+- uid: HashBrowns.ExtensionMethods.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Encrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.ExtensionMethods.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.ExtensionMethods.Encrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.ExtensionMethods.Encrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: ExtensionMethods.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: ExtensionMethods.Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.ExtensionMethods.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name: Encrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Encrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_
+  commentId: M:HashBrowns.ExtensionMethods.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  name.vb: Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+  fullName: HashBrowns.ExtensionMethods.Encrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  fullName.vb: HashBrowns.ExtensionMethods.Encrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms)
+  nameWithType: ExtensionMethods.Encrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)
+  nameWithType.vb: ExtensionMethods.Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms)
+- uid: HashBrowns.ExtensionMethods.Encrypt(System.String,System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name: Encrypt(string, byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms, Encoding?)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Encrypt_System_String_System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_System_Text_Encoding_
+  commentId: M:HashBrowns.ExtensionMethods.Encrypt(System.String,System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name.vb: Encrypt(String, Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms, Encoding)
+  fullName: HashBrowns.ExtensionMethods.Encrypt(string, byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding?)
+  fullName.vb: HashBrowns.ExtensionMethods.Encrypt(String, Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding)
+  nameWithType: ExtensionMethods.Encrypt(string, byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms, Encoding?)
+  nameWithType.vb: ExtensionMethods.Encrypt(String, Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer, SymmetricAlgorithms, Encoding)
+- uid: HashBrowns.ExtensionMethods.Encrypt(System.String,System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name: Encrypt(string, PasswordDeriveBytes, byte[], int, SymmetricAlgorithms, Encoding?)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Encrypt_System_String_System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_System_Text_Encoding_
+  commentId: M:HashBrowns.ExtensionMethods.Encrypt(System.String,System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms,System.Text.Encoding)
+  name.vb: Encrypt(String, PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms, Encoding)
+  fullName: HashBrowns.ExtensionMethods.Encrypt(string, System.Security.Cryptography.PasswordDeriveBytes, byte[], int, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding?)
+  fullName.vb: HashBrowns.ExtensionMethods.Encrypt(String, System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer, HashBrowns.Symmetric.Enums.SymmetricAlgorithms, System.Text.Encoding)
+  nameWithType: ExtensionMethods.Encrypt(string, PasswordDeriveBytes, byte[], int, SymmetricAlgorithms, Encoding?)
+  nameWithType.vb: ExtensionMethods.Encrypt(String, PasswordDeriveBytes, Byte(), Integer, SymmetricAlgorithms, Encoding)
+- uid: HashBrowns.ExtensionMethods.Encrypt*
+  name: Encrypt
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Encrypt_
+  commentId: Overload:HashBrowns.ExtensionMethods.Encrypt
+  isSpec: "True"
+  fullName: HashBrowns.ExtensionMethods.Encrypt
+  nameWithType: ExtensionMethods.Encrypt
+- uid: HashBrowns.ExtensionMethods.Hash(System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms)
+  name: Hash(byte[], HashingAlgorithms)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Hash_System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_
+  commentId: M:HashBrowns.ExtensionMethods.Hash(System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms)
+  name.vb: Hash(Byte(), HashingAlgorithms)
+  fullName: HashBrowns.ExtensionMethods.Hash(byte[], HashBrowns.Hashing.Enums.HashingAlgorithms)
+  fullName.vb: HashBrowns.ExtensionMethods.Hash(Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms)
+  nameWithType: ExtensionMethods.Hash(byte[], HashingAlgorithms)
+  nameWithType.vb: ExtensionMethods.Hash(Byte(), HashingAlgorithms)
+- uid: HashBrowns.ExtensionMethods.Hash(System.String,HashBrowns.Hashing.Enums.HashingAlgorithms,System.Text.Encoding)
+  name: Hash(string, HashingAlgorithms, Encoding?)
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Hash_System_String_HashBrowns_Hashing_Enums_HashingAlgorithms_System_Text_Encoding_
+  commentId: M:HashBrowns.ExtensionMethods.Hash(System.String,HashBrowns.Hashing.Enums.HashingAlgorithms,System.Text.Encoding)
+  name.vb: Hash(String, HashingAlgorithms, Encoding)
+  fullName: HashBrowns.ExtensionMethods.Hash(string, HashBrowns.Hashing.Enums.HashingAlgorithms, System.Text.Encoding?)
+  fullName.vb: HashBrowns.ExtensionMethods.Hash(String, HashBrowns.Hashing.Enums.HashingAlgorithms, System.Text.Encoding)
+  nameWithType: ExtensionMethods.Hash(string, HashingAlgorithms, Encoding?)
+  nameWithType.vb: ExtensionMethods.Hash(String, HashingAlgorithms, Encoding)
+- uid: HashBrowns.ExtensionMethods.Hash*
+  name: Hash
+  href: api/HashBrowns.ExtensionMethods.html#HashBrowns_ExtensionMethods_Hash_
+  commentId: Overload:HashBrowns.ExtensionMethods.Hash
+  isSpec: "True"
+  fullName: HashBrowns.ExtensionMethods.Hash
+  nameWithType: ExtensionMethods.Hash
+- uid: HashBrowns.Hashing
+  name: HashBrowns.Hashing
+  href: api/HashBrowns.Hashing.html
+  commentId: N:HashBrowns.Hashing
+  fullName: HashBrowns.Hashing
+  nameWithType: HashBrowns.Hashing
+- uid: HashBrowns.Hashing.BaseClasses
+  name: HashBrowns.Hashing.BaseClasses
+  href: api/HashBrowns.Hashing.BaseClasses.html
+  commentId: N:HashBrowns.Hashing.BaseClasses
+  fullName: HashBrowns.Hashing.BaseClasses
+  nameWithType: HashBrowns.Hashing.BaseClasses
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass
+  name: HashBaseClass
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html
+  commentId: T:HashBrowns.Hashing.BaseClasses.HashBaseClass
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass
+  nameWithType: HashBaseClass
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html#HashBrowns_Hashing_BaseClasses_HashBaseClass_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.BaseClasses.HashBaseClass.GetAlgorithm
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass.GetAlgorithm()
+  nameWithType: HashBaseClass.GetAlgorithm()
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html#HashBrowns_Hashing_BaseClasses_HashBaseClass_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.BaseClasses.HashBaseClass.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass.GetAlgorithm
+  nameWithType: HashBaseClass.GetAlgorithm
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash(System.Byte[])
+  name: Hash(byte[])
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html#HashBrowns_Hashing_BaseClasses_HashBaseClass_Hash_System_Byte___
+  commentId: M:HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash(System.Byte[])
+  name.vb: Hash(Byte())
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash(byte[])
+  fullName.vb: HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash(Byte())
+  nameWithType: HashBaseClass.Hash(byte[])
+  nameWithType.vb: HashBaseClass.Hash(Byte())
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash*
+  name: Hash
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html#HashBrowns_Hashing_BaseClasses_HashBaseClass_Hash_
+  commentId: Overload:HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass.Hash
+  nameWithType: HashBaseClass.Hash
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass.Name
+  name: Name
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html#HashBrowns_Hashing_BaseClasses_HashBaseClass_Name
+  commentId: P:HashBrowns.Hashing.BaseClasses.HashBaseClass.Name
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass.Name
+  nameWithType: HashBaseClass.Name
+- uid: HashBrowns.Hashing.BaseClasses.HashBaseClass.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html#HashBrowns_Hashing_BaseClasses_HashBaseClass_Name_
+  commentId: Overload:HashBrowns.Hashing.BaseClasses.HashBaseClass.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.BaseClasses.HashBaseClass.Name
+  nameWithType: HashBaseClass.Name
+- uid: HashBrowns.Hashing.Enums
+  name: HashBrowns.Hashing.Enums
+  href: api/HashBrowns.Hashing.Enums.html
+  commentId: N:HashBrowns.Hashing.Enums
+  fullName: HashBrowns.Hashing.Enums
+  nameWithType: HashBrowns.Hashing.Enums
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms
+  name: HashingAlgorithms
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html
+  commentId: T:HashBrowns.Hashing.Enums.HashingAlgorithms
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms
+  nameWithType: HashingAlgorithms
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.#ctor
+  name: HashingAlgorithms()
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms__ctor
+  commentId: M:HashBrowns.Hashing.Enums.HashingAlgorithms.#ctor
+  name.vb: New()
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HashingAlgorithms()
+  fullName.vb: HashBrowns.Hashing.Enums.HashingAlgorithms.New()
+  nameWithType: HashingAlgorithms.HashingAlgorithms()
+  nameWithType.vb: HashingAlgorithms.New()
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.#ctor(System.String)
+  name: HashingAlgorithms(string)
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms__ctor_System_String_
+  commentId: M:HashBrowns.Hashing.Enums.HashingAlgorithms.#ctor(System.String)
+  name.vb: New(String)
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HashingAlgorithms(string)
+  fullName.vb: HashBrowns.Hashing.Enums.HashingAlgorithms.New(String)
+  nameWithType: HashingAlgorithms.HashingAlgorithms(string)
+  nameWithType.vb: HashingAlgorithms.New(String)
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.#ctor*
+  name: HashingAlgorithms
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms__ctor_
+  commentId: Overload:HashBrowns.Hashing.Enums.HashingAlgorithms.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HashingAlgorithms
+  fullName.vb: HashBrowns.Hashing.Enums.HashingAlgorithms.New
+  nameWithType: HashingAlgorithms.HashingAlgorithms
+  nameWithType.vb: HashingAlgorithms.New
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACMD5
+  name: HMACMD5
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_HMACMD5
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.HMACMD5
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACMD5
+  nameWithType: HashingAlgorithms.HMACMD5
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA1
+  name: HMACSHA1
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_HMACSHA1
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA1
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA1
+  nameWithType: HashingAlgorithms.HMACSHA1
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA256
+  name: HMACSHA256
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_HMACSHA256
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA256
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA256
+  nameWithType: HashingAlgorithms.HMACSHA256
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA384
+  name: HMACSHA384
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_HMACSHA384
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA384
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA384
+  nameWithType: HashingAlgorithms.HMACSHA384
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA512
+  name: HMACSHA512
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_HMACSHA512
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA512
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.HMACSHA512
+  nameWithType: HashingAlgorithms.HMACSHA512
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.MD5
+  name: MD5
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_MD5
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.MD5
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.MD5
+  nameWithType: HashingAlgorithms.MD5
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA1
+  name: SHA1
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_SHA1
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.SHA1
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA1
+  nameWithType: HashingAlgorithms.SHA1
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA256
+  name: SHA256
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_SHA256
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.SHA256
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA256
+  nameWithType: HashingAlgorithms.SHA256
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA384
+  name: SHA384
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_SHA384
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.SHA384
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA384
+  nameWithType: HashingAlgorithms.SHA384
+- uid: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA512
+  name: SHA512
+  href: api/HashBrowns.Hashing.Enums.HashingAlgorithms.html#HashBrowns_Hashing_Enums_HashingAlgorithms_SHA512
+  commentId: F:HashBrowns.Hashing.Enums.HashingAlgorithms.SHA512
+  fullName: HashBrowns.Hashing.Enums.HashingAlgorithms.SHA512
+  nameWithType: HashingAlgorithms.SHA512
+- uid: HashBrowns.Hashing.HMACMD5Hasher
+  name: HMACMD5Hasher
+  href: api/HashBrowns.Hashing.HMACMD5Hasher.html
+  commentId: T:HashBrowns.Hashing.HMACMD5Hasher
+  fullName: HashBrowns.Hashing.HMACMD5Hasher
+  nameWithType: HMACMD5Hasher
+- uid: HashBrowns.Hashing.HMACMD5Hasher.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.HMACMD5Hasher.html#HashBrowns_Hashing_HMACMD5Hasher_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.HMACMD5Hasher.GetAlgorithm
+  fullName: HashBrowns.Hashing.HMACMD5Hasher.GetAlgorithm()
+  nameWithType: HMACMD5Hasher.GetAlgorithm()
+- uid: HashBrowns.Hashing.HMACMD5Hasher.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.HMACMD5Hasher.html#HashBrowns_Hashing_HMACMD5Hasher_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.HMACMD5Hasher.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACMD5Hasher.GetAlgorithm
+  nameWithType: HMACMD5Hasher.GetAlgorithm
+- uid: HashBrowns.Hashing.HMACMD5Hasher.Name
+  name: Name
+  href: api/HashBrowns.Hashing.HMACMD5Hasher.html#HashBrowns_Hashing_HMACMD5Hasher_Name
+  commentId: P:HashBrowns.Hashing.HMACMD5Hasher.Name
+  fullName: HashBrowns.Hashing.HMACMD5Hasher.Name
+  nameWithType: HMACMD5Hasher.Name
+- uid: HashBrowns.Hashing.HMACMD5Hasher.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.HMACMD5Hasher.html#HashBrowns_Hashing_HMACMD5Hasher_Name_
+  commentId: Overload:HashBrowns.Hashing.HMACMD5Hasher.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACMD5Hasher.Name
+  nameWithType: HMACMD5Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA1Hasher
+  name: HMACSHA1Hasher
+  href: api/HashBrowns.Hashing.HMACSHA1Hasher.html
+  commentId: T:HashBrowns.Hashing.HMACSHA1Hasher
+  fullName: HashBrowns.Hashing.HMACSHA1Hasher
+  nameWithType: HMACSHA1Hasher
+- uid: HashBrowns.Hashing.HMACSHA1Hasher.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.HMACSHA1Hasher.html#HashBrowns_Hashing_HMACSHA1Hasher_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.HMACSHA1Hasher.GetAlgorithm
+  fullName: HashBrowns.Hashing.HMACSHA1Hasher.GetAlgorithm()
+  nameWithType: HMACSHA1Hasher.GetAlgorithm()
+- uid: HashBrowns.Hashing.HMACSHA1Hasher.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.HMACSHA1Hasher.html#HashBrowns_Hashing_HMACSHA1Hasher_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA1Hasher.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA1Hasher.GetAlgorithm
+  nameWithType: HMACSHA1Hasher.GetAlgorithm
+- uid: HashBrowns.Hashing.HMACSHA1Hasher.Name
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA1Hasher.html#HashBrowns_Hashing_HMACSHA1Hasher_Name
+  commentId: P:HashBrowns.Hashing.HMACSHA1Hasher.Name
+  fullName: HashBrowns.Hashing.HMACSHA1Hasher.Name
+  nameWithType: HMACSHA1Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA1Hasher.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA1Hasher.html#HashBrowns_Hashing_HMACSHA1Hasher_Name_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA1Hasher.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA1Hasher.Name
+  nameWithType: HMACSHA1Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA256Hasher
+  name: HMACSHA256Hasher
+  href: api/HashBrowns.Hashing.HMACSHA256Hasher.html
+  commentId: T:HashBrowns.Hashing.HMACSHA256Hasher
+  fullName: HashBrowns.Hashing.HMACSHA256Hasher
+  nameWithType: HMACSHA256Hasher
+- uid: HashBrowns.Hashing.HMACSHA256Hasher.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.HMACSHA256Hasher.html#HashBrowns_Hashing_HMACSHA256Hasher_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.HMACSHA256Hasher.GetAlgorithm
+  fullName: HashBrowns.Hashing.HMACSHA256Hasher.GetAlgorithm()
+  nameWithType: HMACSHA256Hasher.GetAlgorithm()
+- uid: HashBrowns.Hashing.HMACSHA256Hasher.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.HMACSHA256Hasher.html#HashBrowns_Hashing_HMACSHA256Hasher_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA256Hasher.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA256Hasher.GetAlgorithm
+  nameWithType: HMACSHA256Hasher.GetAlgorithm
+- uid: HashBrowns.Hashing.HMACSHA256Hasher.Name
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA256Hasher.html#HashBrowns_Hashing_HMACSHA256Hasher_Name
+  commentId: P:HashBrowns.Hashing.HMACSHA256Hasher.Name
+  fullName: HashBrowns.Hashing.HMACSHA256Hasher.Name
+  nameWithType: HMACSHA256Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA256Hasher.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA256Hasher.html#HashBrowns_Hashing_HMACSHA256Hasher_Name_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA256Hasher.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA256Hasher.Name
+  nameWithType: HMACSHA256Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA384Hasher
+  name: HMACSHA384Hasher
+  href: api/HashBrowns.Hashing.HMACSHA384Hasher.html
+  commentId: T:HashBrowns.Hashing.HMACSHA384Hasher
+  fullName: HashBrowns.Hashing.HMACSHA384Hasher
+  nameWithType: HMACSHA384Hasher
+- uid: HashBrowns.Hashing.HMACSHA384Hasher.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.HMACSHA384Hasher.html#HashBrowns_Hashing_HMACSHA384Hasher_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.HMACSHA384Hasher.GetAlgorithm
+  fullName: HashBrowns.Hashing.HMACSHA384Hasher.GetAlgorithm()
+  nameWithType: HMACSHA384Hasher.GetAlgorithm()
+- uid: HashBrowns.Hashing.HMACSHA384Hasher.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.HMACSHA384Hasher.html#HashBrowns_Hashing_HMACSHA384Hasher_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA384Hasher.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA384Hasher.GetAlgorithm
+  nameWithType: HMACSHA384Hasher.GetAlgorithm
+- uid: HashBrowns.Hashing.HMACSHA384Hasher.Name
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA384Hasher.html#HashBrowns_Hashing_HMACSHA384Hasher_Name
+  commentId: P:HashBrowns.Hashing.HMACSHA384Hasher.Name
+  fullName: HashBrowns.Hashing.HMACSHA384Hasher.Name
+  nameWithType: HMACSHA384Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA384Hasher.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA384Hasher.html#HashBrowns_Hashing_HMACSHA384Hasher_Name_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA384Hasher.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA384Hasher.Name
+  nameWithType: HMACSHA384Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA512Hasher
+  name: HMACSHA512Hasher
+  href: api/HashBrowns.Hashing.HMACSHA512Hasher.html
+  commentId: T:HashBrowns.Hashing.HMACSHA512Hasher
+  fullName: HashBrowns.Hashing.HMACSHA512Hasher
+  nameWithType: HMACSHA512Hasher
+- uid: HashBrowns.Hashing.HMACSHA512Hasher.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.HMACSHA512Hasher.html#HashBrowns_Hashing_HMACSHA512Hasher_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.HMACSHA512Hasher.GetAlgorithm
+  fullName: HashBrowns.Hashing.HMACSHA512Hasher.GetAlgorithm()
+  nameWithType: HMACSHA512Hasher.GetAlgorithm()
+- uid: HashBrowns.Hashing.HMACSHA512Hasher.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.HMACSHA512Hasher.html#HashBrowns_Hashing_HMACSHA512Hasher_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA512Hasher.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA512Hasher.GetAlgorithm
+  nameWithType: HMACSHA512Hasher.GetAlgorithm
+- uid: HashBrowns.Hashing.HMACSHA512Hasher.Name
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA512Hasher.html#HashBrowns_Hashing_HMACSHA512Hasher_Name
+  commentId: P:HashBrowns.Hashing.HMACSHA512Hasher.Name
+  fullName: HashBrowns.Hashing.HMACSHA512Hasher.Name
+  nameWithType: HMACSHA512Hasher.Name
+- uid: HashBrowns.Hashing.HMACSHA512Hasher.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.HMACSHA512Hasher.html#HashBrowns_Hashing_HMACSHA512Hasher_Name_
+  commentId: Overload:HashBrowns.Hashing.HMACSHA512Hasher.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.HMACSHA512Hasher.Name
+  nameWithType: HMACSHA512Hasher.Name
+- uid: HashBrowns.Hashing.Interfaces
+  name: HashBrowns.Hashing.Interfaces
+  href: api/HashBrowns.Hashing.Interfaces.html
+  commentId: N:HashBrowns.Hashing.Interfaces
+  fullName: HashBrowns.Hashing.Interfaces
+  nameWithType: HashBrowns.Hashing.Interfaces
+- uid: HashBrowns.Hashing.Interfaces.IHash
+  name: IHash
+  href: api/HashBrowns.Hashing.Interfaces.IHash.html
+  commentId: T:HashBrowns.Hashing.Interfaces.IHash
+  fullName: HashBrowns.Hashing.Interfaces.IHash
+  nameWithType: IHash
+- uid: HashBrowns.Hashing.Interfaces.IHash.Hash(System.Byte[])
+  name: Hash(byte[])
+  href: api/HashBrowns.Hashing.Interfaces.IHash.html#HashBrowns_Hashing_Interfaces_IHash_Hash_System_Byte___
+  commentId: M:HashBrowns.Hashing.Interfaces.IHash.Hash(System.Byte[])
+  name.vb: Hash(Byte())
+  fullName: HashBrowns.Hashing.Interfaces.IHash.Hash(byte[])
+  fullName.vb: HashBrowns.Hashing.Interfaces.IHash.Hash(Byte())
+  nameWithType: IHash.Hash(byte[])
+  nameWithType.vb: IHash.Hash(Byte())
+- uid: HashBrowns.Hashing.Interfaces.IHash.Hash*
+  name: Hash
+  href: api/HashBrowns.Hashing.Interfaces.IHash.html#HashBrowns_Hashing_Interfaces_IHash_Hash_
+  commentId: Overload:HashBrowns.Hashing.Interfaces.IHash.Hash
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.Interfaces.IHash.Hash
+  nameWithType: IHash.Hash
+- uid: HashBrowns.Hashing.Interfaces.IHash.Name
+  name: Name
+  href: api/HashBrowns.Hashing.Interfaces.IHash.html#HashBrowns_Hashing_Interfaces_IHash_Name
+  commentId: P:HashBrowns.Hashing.Interfaces.IHash.Name
+  fullName: HashBrowns.Hashing.Interfaces.IHash.Name
+  nameWithType: IHash.Name
+- uid: HashBrowns.Hashing.Interfaces.IHash.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.Interfaces.IHash.html#HashBrowns_Hashing_Interfaces_IHash_Name_
+  commentId: Overload:HashBrowns.Hashing.Interfaces.IHash.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.Interfaces.IHash.Name
+  nameWithType: IHash.Name
+- uid: HashBrowns.Hashing.MD5
+  name: MD5
+  href: api/HashBrowns.Hashing.MD5.html
+  commentId: T:HashBrowns.Hashing.MD5
+  fullName: HashBrowns.Hashing.MD5
+  nameWithType: MD5
+- uid: HashBrowns.Hashing.MD5.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.MD5.html#HashBrowns_Hashing_MD5_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.MD5.GetAlgorithm
+  fullName: HashBrowns.Hashing.MD5.GetAlgorithm()
+  nameWithType: MD5.GetAlgorithm()
+- uid: HashBrowns.Hashing.MD5.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.MD5.html#HashBrowns_Hashing_MD5_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.MD5.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.MD5.GetAlgorithm
+  nameWithType: MD5.GetAlgorithm
+- uid: HashBrowns.Hashing.MD5.Name
+  name: Name
+  href: api/HashBrowns.Hashing.MD5.html#HashBrowns_Hashing_MD5_Name
+  commentId: P:HashBrowns.Hashing.MD5.Name
+  fullName: HashBrowns.Hashing.MD5.Name
+  nameWithType: MD5.Name
+- uid: HashBrowns.Hashing.MD5.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.MD5.html#HashBrowns_Hashing_MD5_Name_
+  commentId: Overload:HashBrowns.Hashing.MD5.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.MD5.Name
+  nameWithType: MD5.Name
+- uid: HashBrowns.Hashing.SHA1
+  name: SHA1
+  href: api/HashBrowns.Hashing.SHA1.html
+  commentId: T:HashBrowns.Hashing.SHA1
+  fullName: HashBrowns.Hashing.SHA1
+  nameWithType: SHA1
+- uid: HashBrowns.Hashing.SHA1.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.SHA1.html#HashBrowns_Hashing_SHA1_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.SHA1.GetAlgorithm
+  fullName: HashBrowns.Hashing.SHA1.GetAlgorithm()
+  nameWithType: SHA1.GetAlgorithm()
+- uid: HashBrowns.Hashing.SHA1.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.SHA1.html#HashBrowns_Hashing_SHA1_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.SHA1.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA1.GetAlgorithm
+  nameWithType: SHA1.GetAlgorithm
+- uid: HashBrowns.Hashing.SHA1.Name
+  name: Name
+  href: api/HashBrowns.Hashing.SHA1.html#HashBrowns_Hashing_SHA1_Name
+  commentId: P:HashBrowns.Hashing.SHA1.Name
+  fullName: HashBrowns.Hashing.SHA1.Name
+  nameWithType: SHA1.Name
+- uid: HashBrowns.Hashing.SHA1.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.SHA1.html#HashBrowns_Hashing_SHA1_Name_
+  commentId: Overload:HashBrowns.Hashing.SHA1.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA1.Name
+  nameWithType: SHA1.Name
+- uid: HashBrowns.Hashing.SHA256
+  name: SHA256
+  href: api/HashBrowns.Hashing.SHA256.html
+  commentId: T:HashBrowns.Hashing.SHA256
+  fullName: HashBrowns.Hashing.SHA256
+  nameWithType: SHA256
+- uid: HashBrowns.Hashing.SHA256.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.SHA256.html#HashBrowns_Hashing_SHA256_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.SHA256.GetAlgorithm
+  fullName: HashBrowns.Hashing.SHA256.GetAlgorithm()
+  nameWithType: SHA256.GetAlgorithm()
+- uid: HashBrowns.Hashing.SHA256.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.SHA256.html#HashBrowns_Hashing_SHA256_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.SHA256.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA256.GetAlgorithm
+  nameWithType: SHA256.GetAlgorithm
+- uid: HashBrowns.Hashing.SHA256.Name
+  name: Name
+  href: api/HashBrowns.Hashing.SHA256.html#HashBrowns_Hashing_SHA256_Name
+  commentId: P:HashBrowns.Hashing.SHA256.Name
+  fullName: HashBrowns.Hashing.SHA256.Name
+  nameWithType: SHA256.Name
+- uid: HashBrowns.Hashing.SHA256.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.SHA256.html#HashBrowns_Hashing_SHA256_Name_
+  commentId: Overload:HashBrowns.Hashing.SHA256.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA256.Name
+  nameWithType: SHA256.Name
+- uid: HashBrowns.Hashing.SHA384
+  name: SHA384
+  href: api/HashBrowns.Hashing.SHA384.html
+  commentId: T:HashBrowns.Hashing.SHA384
+  fullName: HashBrowns.Hashing.SHA384
+  nameWithType: SHA384
+- uid: HashBrowns.Hashing.SHA384.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.SHA384.html#HashBrowns_Hashing_SHA384_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.SHA384.GetAlgorithm
+  fullName: HashBrowns.Hashing.SHA384.GetAlgorithm()
+  nameWithType: SHA384.GetAlgorithm()
+- uid: HashBrowns.Hashing.SHA384.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.SHA384.html#HashBrowns_Hashing_SHA384_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.SHA384.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA384.GetAlgorithm
+  nameWithType: SHA384.GetAlgorithm
+- uid: HashBrowns.Hashing.SHA384.Name
+  name: Name
+  href: api/HashBrowns.Hashing.SHA384.html#HashBrowns_Hashing_SHA384_Name
+  commentId: P:HashBrowns.Hashing.SHA384.Name
+  fullName: HashBrowns.Hashing.SHA384.Name
+  nameWithType: SHA384.Name
+- uid: HashBrowns.Hashing.SHA384.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.SHA384.html#HashBrowns_Hashing_SHA384_Name_
+  commentId: Overload:HashBrowns.Hashing.SHA384.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA384.Name
+  nameWithType: SHA384.Name
+- uid: HashBrowns.Hashing.SHA512
+  name: SHA512
+  href: api/HashBrowns.Hashing.SHA512.html
+  commentId: T:HashBrowns.Hashing.SHA512
+  fullName: HashBrowns.Hashing.SHA512
+  nameWithType: SHA512
+- uid: HashBrowns.Hashing.SHA512.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Hashing.SHA512.html#HashBrowns_Hashing_SHA512_GetAlgorithm
+  commentId: M:HashBrowns.Hashing.SHA512.GetAlgorithm
+  fullName: HashBrowns.Hashing.SHA512.GetAlgorithm()
+  nameWithType: SHA512.GetAlgorithm()
+- uid: HashBrowns.Hashing.SHA512.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Hashing.SHA512.html#HashBrowns_Hashing_SHA512_GetAlgorithm_
+  commentId: Overload:HashBrowns.Hashing.SHA512.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA512.GetAlgorithm
+  nameWithType: SHA512.GetAlgorithm
+- uid: HashBrowns.Hashing.SHA512.Name
+  name: Name
+  href: api/HashBrowns.Hashing.SHA512.html#HashBrowns_Hashing_SHA512_Name
+  commentId: P:HashBrowns.Hashing.SHA512.Name
+  fullName: HashBrowns.Hashing.SHA512.Name
+  nameWithType: SHA512.Name
+- uid: HashBrowns.Hashing.SHA512.Name*
+  name: Name
+  href: api/HashBrowns.Hashing.SHA512.html#HashBrowns_Hashing_SHA512_Name_
+  commentId: Overload:HashBrowns.Hashing.SHA512.Name
+  isSpec: "True"
+  fullName: HashBrowns.Hashing.SHA512.Name
+  nameWithType: SHA512.Name
+- uid: HashBrowns.Modules
+  name: HashBrowns.Modules
+  href: api/HashBrowns.Modules.html
+  commentId: N:HashBrowns.Modules
+  fullName: HashBrowns.Modules
+  nameWithType: HashBrowns.Modules
+- uid: HashBrowns.Modules.HashBrownsModule
+  name: HashBrownsModule
+  href: api/HashBrowns.Modules.HashBrownsModule.html
+  commentId: T:HashBrowns.Modules.HashBrownsModule
+  fullName: HashBrowns.Modules.HashBrownsModule
+  nameWithType: HashBrownsModule
+- uid: HashBrowns.Modules.HashBrownsModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: Load(IServiceCollection?)
+  href: api/HashBrowns.Modules.HashBrownsModule.html#HashBrowns_Modules_HashBrownsModule_Load_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:HashBrowns.Modules.HashBrownsModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: Load(IServiceCollection)
+  fullName: HashBrowns.Modules.HashBrownsModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection?)
+  fullName.vb: HashBrowns.Modules.HashBrownsModule.Load(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: HashBrownsModule.Load(IServiceCollection?)
+  nameWithType.vb: HashBrownsModule.Load(IServiceCollection)
+- uid: HashBrowns.Modules.HashBrownsModule.Load*
+  name: Load
+  href: api/HashBrowns.Modules.HashBrownsModule.html#HashBrowns_Modules_HashBrownsModule_Load_
+  commentId: Overload:HashBrowns.Modules.HashBrownsModule.Load
+  isSpec: "True"
+  fullName: HashBrowns.Modules.HashBrownsModule.Load
+  nameWithType: HashBrownsModule.Load
+- uid: HashBrowns.Modules.HashBrownsModule.Order
+  name: Order
+  href: api/HashBrowns.Modules.HashBrownsModule.html#HashBrowns_Modules_HashBrownsModule_Order
+  commentId: P:HashBrowns.Modules.HashBrownsModule.Order
+  fullName: HashBrowns.Modules.HashBrownsModule.Order
+  nameWithType: HashBrownsModule.Order
+- uid: HashBrowns.Modules.HashBrownsModule.Order*
+  name: Order
+  href: api/HashBrowns.Modules.HashBrownsModule.html#HashBrowns_Modules_HashBrownsModule_Order_
+  commentId: Overload:HashBrowns.Modules.HashBrownsModule.Order
+  isSpec: "True"
+  fullName: HashBrowns.Modules.HashBrownsModule.Order
+  nameWithType: HashBrownsModule.Order
+- uid: HashBrowns.Symmetric
+  name: HashBrowns.Symmetric
+  href: api/HashBrowns.Symmetric.html
+  commentId: N:HashBrowns.Symmetric
+  fullName: HashBrowns.Symmetric
+  nameWithType: HashBrowns.Symmetric
+- uid: HashBrowns.Symmetric.Aes
+  name: Aes
+  href: api/HashBrowns.Symmetric.Aes.html
+  commentId: T:HashBrowns.Symmetric.Aes
+  fullName: HashBrowns.Symmetric.Aes
+  nameWithType: Aes
+- uid: HashBrowns.Symmetric.Aes.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Symmetric.Aes.html#HashBrowns_Symmetric_Aes_GetAlgorithm
+  commentId: M:HashBrowns.Symmetric.Aes.GetAlgorithm
+  fullName: HashBrowns.Symmetric.Aes.GetAlgorithm()
+  nameWithType: Aes.GetAlgorithm()
+- uid: HashBrowns.Symmetric.Aes.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Symmetric.Aes.html#HashBrowns_Symmetric_Aes_GetAlgorithm_
+  commentId: Overload:HashBrowns.Symmetric.Aes.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Aes.GetAlgorithm
+  nameWithType: Aes.GetAlgorithm
+- uid: HashBrowns.Symmetric.Aes.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.Aes.html#HashBrowns_Symmetric_Aes_Name
+  commentId: P:HashBrowns.Symmetric.Aes.Name
+  fullName: HashBrowns.Symmetric.Aes.Name
+  nameWithType: Aes.Name
+- uid: HashBrowns.Symmetric.Aes.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.Aes.html#HashBrowns_Symmetric_Aes_Name_
+  commentId: Overload:HashBrowns.Symmetric.Aes.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Aes.Name
+  nameWithType: Aes.Name
+- uid: HashBrowns.Symmetric.BaseClasses
+  name: HashBrowns.Symmetric.BaseClasses
+  href: api/HashBrowns.Symmetric.BaseClasses.html
+  commentId: N:HashBrowns.Symmetric.BaseClasses
+  fullName: HashBrowns.Symmetric.BaseClasses
+  nameWithType: HashBrowns.Symmetric.BaseClasses
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass
+  name: SymmetricBaseClass
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html
+  commentId: T:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass
+  nameWithType: SymmetricBaseClass
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.#ctor
+  name: SymmetricBaseClass()
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass__ctor
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.#ctor
+  name.vb: New()
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.SymmetricBaseClass()
+  fullName.vb: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.New()
+  nameWithType: SymmetricBaseClass.SymmetricBaseClass()
+  nameWithType.vb: SymmetricBaseClass.New()
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.#ctor*
+  name: SymmetricBaseClass
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass__ctor_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.SymmetricBaseClass
+  fullName.vb: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.New
+  nameWithType: SymmetricBaseClass.SymmetricBaseClass
+  nameWithType.vb: SymmetricBaseClass.New
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateInitialVector
+  name: CreateInitialVector()
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_CreateInitialVector
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateInitialVector
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateInitialVector()
+  nameWithType: SymmetricBaseClass.CreateInitialVector()
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateInitialVector*
+  name: CreateInitialVector
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_CreateInitialVector_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateInitialVector
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateInitialVector
+  nameWithType: SymmetricBaseClass.CreateInitialVector
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateKey
+  name: CreateKey()
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_CreateKey
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateKey
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateKey()
+  nameWithType: SymmetricBaseClass.CreateKey()
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateKey*
+  name: CreateKey
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_CreateKey_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateKey
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.CreateKey
+  nameWithType: SymmetricBaseClass.CreateKey
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name: Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Decrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name.vb: Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer)
+  nameWithType: SymmetricBaseClass.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  nameWithType.vb: SymmetricBaseClass.Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name: Decrypt(byte[], PasswordDeriveBytes, byte[], int)
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Decrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name.vb: Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer)
+  nameWithType: SymmetricBaseClass.Decrypt(byte[], PasswordDeriveBytes, byte[], int)
+  nameWithType.vb: SymmetricBaseClass.Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt*
+  name: Decrypt
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Decrypt_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Decrypt
+  nameWithType: SymmetricBaseClass.Decrypt
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name: Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Encrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name.vb: Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer)
+  nameWithType: SymmetricBaseClass.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  nameWithType.vb: SymmetricBaseClass.Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name: Encrypt(byte[], PasswordDeriveBytes, byte[], int)
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Encrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name.vb: Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer)
+  nameWithType: SymmetricBaseClass.Encrypt(byte[], PasswordDeriveBytes, byte[], int)
+  nameWithType.vb: SymmetricBaseClass.Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt*
+  name: Encrypt
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Encrypt_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Encrypt
+  nameWithType: SymmetricBaseClass.Encrypt
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_GetAlgorithm
+  commentId: M:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.GetAlgorithm
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.GetAlgorithm()
+  nameWithType: SymmetricBaseClass.GetAlgorithm()
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_GetAlgorithm_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.GetAlgorithm
+  nameWithType: SymmetricBaseClass.GetAlgorithm
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Name
+  commentId: P:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Name
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Name
+  nameWithType: SymmetricBaseClass.Name
+- uid: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html#HashBrowns_Symmetric_BaseClasses_SymmetricBaseClass_Name_
+  commentId: Overload:HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.Name
+  nameWithType: SymmetricBaseClass.Name
+- uid: HashBrowns.Symmetric.DES
+  name: DES
+  href: api/HashBrowns.Symmetric.DES.html
+  commentId: T:HashBrowns.Symmetric.DES
+  fullName: HashBrowns.Symmetric.DES
+  nameWithType: DES
+- uid: HashBrowns.Symmetric.DES.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Symmetric.DES.html#HashBrowns_Symmetric_DES_GetAlgorithm
+  commentId: M:HashBrowns.Symmetric.DES.GetAlgorithm
+  fullName: HashBrowns.Symmetric.DES.GetAlgorithm()
+  nameWithType: DES.GetAlgorithm()
+- uid: HashBrowns.Symmetric.DES.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Symmetric.DES.html#HashBrowns_Symmetric_DES_GetAlgorithm_
+  commentId: Overload:HashBrowns.Symmetric.DES.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.DES.GetAlgorithm
+  nameWithType: DES.GetAlgorithm
+- uid: HashBrowns.Symmetric.DES.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.DES.html#HashBrowns_Symmetric_DES_Name
+  commentId: P:HashBrowns.Symmetric.DES.Name
+  fullName: HashBrowns.Symmetric.DES.Name
+  nameWithType: DES.Name
+- uid: HashBrowns.Symmetric.DES.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.DES.html#HashBrowns_Symmetric_DES_Name_
+  commentId: Overload:HashBrowns.Symmetric.DES.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.DES.Name
+  nameWithType: DES.Name
+- uid: HashBrowns.Symmetric.Enums
+  name: HashBrowns.Symmetric.Enums
+  href: api/HashBrowns.Symmetric.Enums.html
+  commentId: N:HashBrowns.Symmetric.Enums
+  fullName: HashBrowns.Symmetric.Enums
+  nameWithType: HashBrowns.Symmetric.Enums
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms
+  name: SymmetricAlgorithms
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html
+  commentId: T:HashBrowns.Symmetric.Enums.SymmetricAlgorithms
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms
+  nameWithType: SymmetricAlgorithms
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.#ctor
+  name: SymmetricAlgorithms()
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms__ctor
+  commentId: M:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.#ctor
+  name.vb: New()
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.SymmetricAlgorithms()
+  fullName.vb: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.New()
+  nameWithType: SymmetricAlgorithms.SymmetricAlgorithms()
+  nameWithType.vb: SymmetricAlgorithms.New()
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.#ctor(System.String)
+  name: SymmetricAlgorithms(string)
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms__ctor_System_String_
+  commentId: M:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.#ctor(System.String)
+  name.vb: New(String)
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.SymmetricAlgorithms(string)
+  fullName.vb: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.New(String)
+  nameWithType: SymmetricAlgorithms.SymmetricAlgorithms(string)
+  nameWithType.vb: SymmetricAlgorithms.New(String)
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.#ctor*
+  name: SymmetricAlgorithms
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms__ctor_
+  commentId: Overload:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.SymmetricAlgorithms
+  fullName.vb: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.New
+  nameWithType: SymmetricAlgorithms.SymmetricAlgorithms
+  nameWithType.vb: SymmetricAlgorithms.New
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.AES
+  name: AES
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms_AES
+  commentId: F:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.AES
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.AES
+  nameWithType: SymmetricAlgorithms.AES
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.DES
+  name: DES
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms_DES
+  commentId: F:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.DES
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.DES
+  nameWithType: SymmetricAlgorithms.DES
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.RC2
+  name: RC2
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms_RC2
+  commentId: F:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.RC2
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.RC2
+  nameWithType: SymmetricAlgorithms.RC2
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.Rijndael
+  name: Rijndael
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms_Rijndael
+  commentId: F:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.Rijndael
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.Rijndael
+  nameWithType: SymmetricAlgorithms.Rijndael
+- uid: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.TripleDES
+  name: TripleDES
+  href: api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html#HashBrowns_Symmetric_Enums_SymmetricAlgorithms_TripleDES
+  commentId: F:HashBrowns.Symmetric.Enums.SymmetricAlgorithms.TripleDES
+  fullName: HashBrowns.Symmetric.Enums.SymmetricAlgorithms.TripleDES
+  nameWithType: SymmetricAlgorithms.TripleDES
+- uid: HashBrowns.Symmetric.Interfaces
+  name: HashBrowns.Symmetric.Interfaces
+  href: api/HashBrowns.Symmetric.Interfaces.html
+  commentId: N:HashBrowns.Symmetric.Interfaces
+  fullName: HashBrowns.Symmetric.Interfaces
+  nameWithType: HashBrowns.Symmetric.Interfaces
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric
+  name: ISymmetric
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html
+  commentId: T:HashBrowns.Symmetric.Interfaces.ISymmetric
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric
+  nameWithType: ISymmetric
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateInitialVector
+  name: CreateInitialVector()
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_CreateInitialVector
+  commentId: M:HashBrowns.Symmetric.Interfaces.ISymmetric.CreateInitialVector
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateInitialVector()
+  nameWithType: ISymmetric.CreateInitialVector()
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateInitialVector*
+  name: CreateInitialVector
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_CreateInitialVector_
+  commentId: Overload:HashBrowns.Symmetric.Interfaces.ISymmetric.CreateInitialVector
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateInitialVector
+  nameWithType: ISymmetric.CreateInitialVector
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateKey
+  name: CreateKey()
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_CreateKey
+  commentId: M:HashBrowns.Symmetric.Interfaces.ISymmetric.CreateKey
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateKey()
+  nameWithType: ISymmetric.CreateKey()
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateKey*
+  name: CreateKey
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_CreateKey_
+  commentId: Overload:HashBrowns.Symmetric.Interfaces.ISymmetric.CreateKey
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.CreateKey
+  nameWithType: ISymmetric.CreateKey
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name: Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Decrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name.vb: Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer)
+  nameWithType: ISymmetric.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  nameWithType.vb: ISymmetric.Decrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name: Decrypt(byte[], PasswordDeriveBytes, byte[], int)
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Decrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name.vb: Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer)
+  nameWithType: ISymmetric.Decrypt(byte[], PasswordDeriveBytes, byte[], int)
+  nameWithType.vb: ISymmetric.Decrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt*
+  name: Decrypt
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Decrypt_
+  commentId: Overload:HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Decrypt
+  nameWithType: ISymmetric.Decrypt
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name: Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Encrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32)
+  name.vb: Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(byte[], byte[], byte[], HashBrowns.Hashing.Enums.HashingAlgorithms, int, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(Byte(), Byte(), Byte(), HashBrowns.Hashing.Enums.HashingAlgorithms, Integer, Byte(), Integer)
+  nameWithType: ISymmetric.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int)
+  nameWithType.vb: ISymmetric.Encrypt(Byte(), Byte(), Byte(), HashingAlgorithms, Integer, Byte(), Integer)
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name: Encrypt(byte[], PasswordDeriveBytes, byte[], int)
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Encrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_
+  commentId: M:HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32)
+  name.vb: Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(byte[], System.Security.Cryptography.PasswordDeriveBytes, byte[], int)
+  fullName.vb: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt(Byte(), System.Security.Cryptography.PasswordDeriveBytes, Byte(), Integer)
+  nameWithType: ISymmetric.Encrypt(byte[], PasswordDeriveBytes, byte[], int)
+  nameWithType.vb: ISymmetric.Encrypt(Byte(), PasswordDeriveBytes, Byte(), Integer)
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt*
+  name: Encrypt
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Encrypt_
+  commentId: Overload:HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Encrypt
+  nameWithType: ISymmetric.Encrypt
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Name
+  commentId: P:HashBrowns.Symmetric.Interfaces.ISymmetric.Name
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Name
+  nameWithType: ISymmetric.Name
+- uid: HashBrowns.Symmetric.Interfaces.ISymmetric.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.Interfaces.ISymmetric.html#HashBrowns_Symmetric_Interfaces_ISymmetric_Name_
+  commentId: Overload:HashBrowns.Symmetric.Interfaces.ISymmetric.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Interfaces.ISymmetric.Name
+  nameWithType: ISymmetric.Name
+- uid: HashBrowns.Symmetric.RC2
+  name: RC2
+  href: api/HashBrowns.Symmetric.RC2.html
+  commentId: T:HashBrowns.Symmetric.RC2
+  fullName: HashBrowns.Symmetric.RC2
+  nameWithType: RC2
+- uid: HashBrowns.Symmetric.RC2.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Symmetric.RC2.html#HashBrowns_Symmetric_RC2_GetAlgorithm
+  commentId: M:HashBrowns.Symmetric.RC2.GetAlgorithm
+  fullName: HashBrowns.Symmetric.RC2.GetAlgorithm()
+  nameWithType: RC2.GetAlgorithm()
+- uid: HashBrowns.Symmetric.RC2.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Symmetric.RC2.html#HashBrowns_Symmetric_RC2_GetAlgorithm_
+  commentId: Overload:HashBrowns.Symmetric.RC2.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.RC2.GetAlgorithm
+  nameWithType: RC2.GetAlgorithm
+- uid: HashBrowns.Symmetric.RC2.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.RC2.html#HashBrowns_Symmetric_RC2_Name
+  commentId: P:HashBrowns.Symmetric.RC2.Name
+  fullName: HashBrowns.Symmetric.RC2.Name
+  nameWithType: RC2.Name
+- uid: HashBrowns.Symmetric.RC2.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.RC2.html#HashBrowns_Symmetric_RC2_Name_
+  commentId: Overload:HashBrowns.Symmetric.RC2.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.RC2.Name
+  nameWithType: RC2.Name
+- uid: HashBrowns.Symmetric.Rijndael
+  name: Rijndael
+  href: api/HashBrowns.Symmetric.Rijndael.html
+  commentId: T:HashBrowns.Symmetric.Rijndael
+  fullName: HashBrowns.Symmetric.Rijndael
+  nameWithType: Rijndael
+- uid: HashBrowns.Symmetric.Rijndael.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Symmetric.Rijndael.html#HashBrowns_Symmetric_Rijndael_GetAlgorithm
+  commentId: M:HashBrowns.Symmetric.Rijndael.GetAlgorithm
+  fullName: HashBrowns.Symmetric.Rijndael.GetAlgorithm()
+  nameWithType: Rijndael.GetAlgorithm()
+- uid: HashBrowns.Symmetric.Rijndael.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Symmetric.Rijndael.html#HashBrowns_Symmetric_Rijndael_GetAlgorithm_
+  commentId: Overload:HashBrowns.Symmetric.Rijndael.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Rijndael.GetAlgorithm
+  nameWithType: Rijndael.GetAlgorithm
+- uid: HashBrowns.Symmetric.Rijndael.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.Rijndael.html#HashBrowns_Symmetric_Rijndael_Name
+  commentId: P:HashBrowns.Symmetric.Rijndael.Name
+  fullName: HashBrowns.Symmetric.Rijndael.Name
+  nameWithType: Rijndael.Name
+- uid: HashBrowns.Symmetric.Rijndael.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.Rijndael.html#HashBrowns_Symmetric_Rijndael_Name_
+  commentId: Overload:HashBrowns.Symmetric.Rijndael.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.Rijndael.Name
+  nameWithType: Rijndael.Name
+- uid: HashBrowns.Symmetric.TripleDES
+  name: TripleDES
+  href: api/HashBrowns.Symmetric.TripleDES.html
+  commentId: T:HashBrowns.Symmetric.TripleDES
+  fullName: HashBrowns.Symmetric.TripleDES
+  nameWithType: TripleDES
+- uid: HashBrowns.Symmetric.TripleDES.GetAlgorithm
+  name: GetAlgorithm()
+  href: api/HashBrowns.Symmetric.TripleDES.html#HashBrowns_Symmetric_TripleDES_GetAlgorithm
+  commentId: M:HashBrowns.Symmetric.TripleDES.GetAlgorithm
+  fullName: HashBrowns.Symmetric.TripleDES.GetAlgorithm()
+  nameWithType: TripleDES.GetAlgorithm()
+- uid: HashBrowns.Symmetric.TripleDES.GetAlgorithm*
+  name: GetAlgorithm
+  href: api/HashBrowns.Symmetric.TripleDES.html#HashBrowns_Symmetric_TripleDES_GetAlgorithm_
+  commentId: Overload:HashBrowns.Symmetric.TripleDES.GetAlgorithm
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.TripleDES.GetAlgorithm
+  nameWithType: TripleDES.GetAlgorithm
+- uid: HashBrowns.Symmetric.TripleDES.Name
+  name: Name
+  href: api/HashBrowns.Symmetric.TripleDES.html#HashBrowns_Symmetric_TripleDES_Name
+  commentId: P:HashBrowns.Symmetric.TripleDES.Name
+  fullName: HashBrowns.Symmetric.TripleDES.Name
+  nameWithType: TripleDES.Name
+- uid: HashBrowns.Symmetric.TripleDES.Name*
+  name: Name
+  href: api/HashBrowns.Symmetric.TripleDES.html#HashBrowns_Symmetric_TripleDES_Name_
+  commentId: Overload:HashBrowns.Symmetric.TripleDES.Name
+  isSpec: "True"
+  fullName: HashBrowns.Symmetric.TripleDES.Name
+  nameWithType: TripleDES.Name
+- uid: Microsoft.Extensions.DependencyInjection
+  name: Microsoft.Extensions.DependencyInjection
+  href: api/Microsoft.Extensions.DependencyInjection.html
+  commentId: N:Microsoft.Extensions.DependencyInjection
+  fullName: Microsoft.Extensions.DependencyInjection
+  nameWithType: Microsoft.Extensions.DependencyInjection
+- uid: Microsoft.Extensions.DependencyInjection.HashRegistration
+  name: HashRegistration
+  href: api/Microsoft.Extensions.DependencyInjection.HashRegistration.html
+  commentId: T:Microsoft.Extensions.DependencyInjection.HashRegistration
+  fullName: Microsoft.Extensions.DependencyInjection.HashRegistration
+  nameWithType: HashRegistration
+- uid: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Canister.Interfaces.ICanisterConfiguration)
+  name: RegisterHashBrowns(ICanisterConfiguration?)
+  href: api/Microsoft.Extensions.DependencyInjection.HashRegistration.html#Microsoft_Extensions_DependencyInjection_HashRegistration_RegisterHashBrowns_Canister_Interfaces_ICanisterConfiguration_
+  commentId: M:Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Canister.Interfaces.ICanisterConfiguration)
+  name.vb: RegisterHashBrowns(ICanisterConfiguration)
+  fullName: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Canister.Interfaces.ICanisterConfiguration?)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Canister.Interfaces.ICanisterConfiguration)
+  nameWithType: HashRegistration.RegisterHashBrowns(ICanisterConfiguration?)
+  nameWithType.vb: HashRegistration.RegisterHashBrowns(ICanisterConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns*
+  name: RegisterHashBrowns
+  href: api/Microsoft.Extensions.DependencyInjection.HashRegistration.html#Microsoft_Extensions_DependencyInjection_HashRegistration_RegisterHashBrowns_
+  commentId: Overload:Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns
+  isSpec: "True"
+  fullName: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns
+  nameWithType: HashRegistration.RegisterHashBrowns

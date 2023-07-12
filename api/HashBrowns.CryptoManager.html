@@ -1,0 +1,830 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class CryptoManager
+ | HashBrowns API Reference </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class CryptoManager
+ | HashBrowns API Reference ">
+      <meta name="generator" content="docfx ">
+  
+      <link rel="shortcut icon" href="../favicon.ico">
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/night-owl.min.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" integrity="sha384-EvBWSlnoFgZlXJvpzS+MAUEjvN7+gcCwH+qh7GRFOGgZO0PuwOFro7qPOJnLfe7l" crossorigin="anonymous">
+      <link rel="stylesheet" href="../styles/config.css">
+      <link rel="stylesheet" href="../styles/discord.css">
+      <link rel="stylesheet" href="../styles/singulink.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+  
+  <meta property="docfx:rel" content="../">
+  <meta property="docfx:newtab" content="true">
+    </head>
+    <body>
+        <div class="top-navbar">
+            <a class="burger-icon" onclick="toggleMenu()">
+                <svg name="Hamburger" style="vertical-align: middle;" width="34" height="34" viewbox="0 0 24 24"><path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M20 6H4V9H20V6ZM4 10.999H20V13.999H4V10.999ZM4 15.999H20V18.999H4V15.999Z"></path></svg>
+            </a>
+
+
+            <a class="brand" href="../index.html">
+              <img src="../images/icon.png" alt="HashBrowns" class="logomark">
+              <span class="brand-title">HashBrowns</span>
+            </a>        </div>
+
+        <div class="body-content">
+            <div id="blackout" class="blackout" onclick="toggleMenu()"></div>
+
+            <nav id="sidebar" role="navigation">
+                <div class="sidebar">
+
+                    <div>
+                      <div class="mobile-hide">
+
+                        <a class="brand" href="../index.html">
+                          <img src="../images/icon.png" alt="HashBrowns" class="logomark">
+                          <span class="brand-title">HashBrowns</span>
+                        </a>                      </div>
+
+                      <div class="sidesearch">
+                        <form id="search" role="search" class="search">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-query" placeholder="Search" autocomplete="off">
+                        </form>
+                      </div>
+
+                      <div id="navbar">
+                      </div>
+                    </div>                    <div class="sidebar-item-separator"></div>
+
+                        <div id="sidetoggle">
+                          <div id="sidetoc"></div>
+                        </div>
+                </div>
+                <div class="footer">
+  <strong><a href='https://github.com/JaCraig/HashBrowns'>Open in Github</a></strong>
+  
+                </div>            </nav>
+
+            <main class="main-panel">
+
+                <div id="search-results" style="display: none;">
+                  <h1 class="search-list">Search Results for <span></span></h1>
+                  <div class="sr-items">
+                    <p><i class="bi bi-hourglass-split index-loading"></i></p>
+                  </div>
+                  <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+                </div>
+ 
+
+                <div role="main" class="hide-when-search">
+
+                        <div class="subnav navbar navbar-default">
+                          <div class="container hide-when-search" id="breadcrumb">
+                            <ul class="breadcrumb">
+                              <li></li>
+                            </ul>
+                          </div>
+                        </div>
+
+                         <div id="contribution">
+                               <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                         </div>
+
+                    <article class="content wrap" id="_content" data-uid="HashBrowns.CryptoManager">
+
+
+
+  <h1 id="HashBrowns_CryptoManager" data-uid="HashBrowns.CryptoManager" class="text-break">Class CryptoManager
+</h1>
+  <div class="markdown level0 summary"><p>Crypto manager</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">object</a></div>
+    <div class="level1"><span class="xref">CryptoManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)">object.Equals(object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)">object.Equals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gethashcode">object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.gettype">object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone">object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.referenceequals">object.ReferenceEquals(object, object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.tostring">object.ToString()</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="HashBrowns.html">HashBrowns</a></h6>
+  <h6><strong>Assembly</strong>: HashBrowns.dll</h6>
+  <h5 id="HashBrowns_CryptoManager_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class CryptoManager</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager__ctor_System_Collections_Generic_IEnumerable_HashBrowns_Hashing_Interfaces_IHash__System_Collections_Generic_IEnumerable_HashBrowns_Symmetric_Interfaces_ISymmetric__.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.%23ctor(System.Collections.Generic.IEnumerable%7BHashBrowns.Hashing.Interfaces.IHash%7D%2CSystem.Collections.Generic.IEnumerable%7BHashBrowns.Symmetric.Interfaces.ISymmetric%7D)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L38">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager__ctor_" data-uid="HashBrowns.CryptoManager.#ctor*"></a>
+  <h4 id="HashBrowns_CryptoManager__ctor_System_Collections_Generic_IEnumerable_HashBrowns_Hashing_Interfaces_IHash__System_Collections_Generic_IEnumerable_HashBrowns_Symmetric_Interfaces_ISymmetric__" data-uid="HashBrowns.CryptoManager.#ctor(System.Collections.Generic.IEnumerable{HashBrowns.Hashing.Interfaces.IHash},System.Collections.Generic.IEnumerable{HashBrowns.Symmetric.Interfaces.ISymmetric})">CryptoManager(IEnumerable&lt;IHash&gt;, IEnumerable&lt;ISymmetric&gt;)</h4>
+  <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="HashBrowns.CryptoManager.html">CryptoManager</a> class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CryptoManager(IEnumerable&lt;IHash&gt; hashes, IEnumerable&lt;ISymmetric&gt; symmetrics)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HashBrowns.Hashing.Interfaces.IHash.html">IHash</a>&gt;</td>
+        <td><span class="parametername">hashes</span></td>
+        <td><p>The hashes.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HashBrowns.Symmetric.Interfaces.ISymmetric.html">ISymmetric</a>&gt;</td>
+        <td><span class="parametername">symmetrics</span></td>
+        <td><p>The symmetrics.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Hashes.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Hashes%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L48">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Hashes_" data-uid="HashBrowns.CryptoManager.Hashes*"></a>
+  <h4 id="HashBrowns_CryptoManager_Hashes" data-uid="HashBrowns.CryptoManager.Hashes">Hashes</h4>
+  <div class="markdown level1 summary"><p>Gets the hashes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;IHash&gt; Hashes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HashBrowns.Hashing.Interfaces.IHash.html">IHash</a>&gt;</td>
+        <td><p>The hashes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Symmetrics.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Symmetrics%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L54">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Symmetrics_" data-uid="HashBrowns.CryptoManager.Symmetrics*"></a>
+  <h4 id="HashBrowns_CryptoManager_Symmetrics" data-uid="HashBrowns.CryptoManager.Symmetrics">Symmetrics</h4>
+  <div class="markdown level1 summary"><p>Gets the symmetrics.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;ISymmetric&gt; Symmetrics { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="HashBrowns.Symmetric.Interfaces.ISymmetric.html">ISymmetric</a>&gt;</td>
+        <td><p>The symmetrics.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_CreateKey_System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.CreateKey(System.Byte%5B%5D%2CSystem.Byte%5B%5D%2CHashBrowns.Hashing.Enums.HashingAlgorithms%2CSystem.Int32)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L64">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_CreateKey_" data-uid="HashBrowns.CryptoManager.CreateKey*"></a>
+  <h4 id="HashBrowns_CryptoManager_CreateKey_System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_" data-uid="HashBrowns.CryptoManager.CreateKey(System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32)">CreateKey(byte[], byte[], HashingAlgorithms, int)</h4>
+  <div class="markdown level1 summary"><p>Creates a PasswordDeriveBytes key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static PasswordDeriveBytes CreateKey(byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Hashing.Enums.HashingAlgorithms.html">HashingAlgorithms</a></td>
+        <td><span class="parametername">hashingAlgorithm</span></td>
+        <td><p>The hashing algorithm.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">passwordIterations</span></td>
+        <td><p>The password iterations.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.passwordderivebytes">PasswordDeriveBytes</a></td>
+        <td><p>The resulting key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_CreateRandomInitialVector_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.CreateRandomInitialVector(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L77">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_CreateRandomInitialVector_" data-uid="HashBrowns.CryptoManager.CreateRandomInitialVector*"></a>
+  <h4 id="HashBrowns_CryptoManager_CreateRandomInitialVector_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_" data-uid="HashBrowns.CryptoManager.CreateRandomInitialVector(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)">CreateRandomInitialVector(SymmetricAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Creates the initial vector.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] CreateRandomInitialVector(SymmetricAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html">SymmetricAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td><p>The algorithm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The initial vector.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_CreateRandomKey_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.CreateRandomKey(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L90">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_CreateRandomKey_" data-uid="HashBrowns.CryptoManager.CreateRandomKey*"></a>
+  <h4 id="HashBrowns_CryptoManager_CreateRandomKey_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_" data-uid="HashBrowns.CryptoManager.CreateRandomKey(HashBrowns.Symmetric.Enums.SymmetricAlgorithms)">CreateRandomKey(SymmetricAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Creates a key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] CreateRandomKey(SymmetricAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html">SymmetricAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td><p>The algorithm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The key</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Decrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Decrypt(System.Byte%5B%5D%2CSystem.Byte%5B%5D%2CSystem.Byte%5B%5D%2CHashBrowns.Hashing.Enums.HashingAlgorithms%2CSystem.Int32%2CSystem.Byte%5B%5D%2CSystem.Int32%2CHashBrowns.Symmetric.Enums.SymmetricAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L111">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Decrypt_" data-uid="HashBrowns.CryptoManager.Decrypt*"></a>
+  <h4 id="HashBrowns_CryptoManager_Decrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_" data-uid="HashBrowns.CryptoManager.Decrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)">Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Decrypts the specified data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Decrypt(byte[] data, byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations, byte[] initialVector, int keySize, SymmetricAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Hashing.Enums.HashingAlgorithms.html">HashingAlgorithms</a></td>
+        <td><span class="parametername">hashingAlgorithm</span></td>
+        <td><p>The hashing algorithm.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">passwordIterations</span></td>
+        <td><p>The password iterations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">initialVector</span></td>
+        <td><p>The initial vector. 16 ASCII characters long.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">keySize</span></td>
+        <td><p>Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html">SymmetricAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The decrypted data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Decrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Decrypt(System.Byte%5B%5D%2CSystem.Security.Cryptography.PasswordDeriveBytes%2CSystem.Byte%5B%5D%2CSystem.Int32%2CHashBrowns.Symmetric.Enums.SymmetricAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L139">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Decrypt_" data-uid="HashBrowns.CryptoManager.Decrypt*"></a>
+  <h4 id="HashBrowns_CryptoManager_Decrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_" data-uid="HashBrowns.CryptoManager.Decrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)">Decrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Decrypts the specified data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Decrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize, SymmetricAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.passwordderivebytes">PasswordDeriveBytes</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">initialVector</span></td>
+        <td><p>The initial vector. 16 ASCII characters long.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">keySize</span></td>
+        <td><p>Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html">SymmetricAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td><p>The algorithm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The decrypted data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Encrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Encrypt(System.Byte%5B%5D%2CSystem.Byte%5B%5D%2CSystem.Byte%5B%5D%2CHashBrowns.Hashing.Enums.HashingAlgorithms%2CSystem.Int32%2CSystem.Byte%5B%5D%2CSystem.Int32%2CHashBrowns.Symmetric.Enums.SymmetricAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L165">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Encrypt_" data-uid="HashBrowns.CryptoManager.Encrypt*"></a>
+  <h4 id="HashBrowns_CryptoManager_Encrypt_System_Byte___System_Byte___System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_System_Int32_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_" data-uid="HashBrowns.CryptoManager.Encrypt(System.Byte[],System.Byte[],System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms,System.Int32,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)">Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int, SymmetricAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Encrypts the specified data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Encrypt(byte[] data, byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations, byte[] initialVector, int keySize, SymmetricAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">salt</span></td>
+        <td><p>The salt.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Hashing.Enums.HashingAlgorithms.html">HashingAlgorithms</a></td>
+        <td><span class="parametername">hashingAlgorithm</span></td>
+        <td><p>The hashing algorithm.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">passwordIterations</span></td>
+        <td><p>The password iterations.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">initialVector</span></td>
+        <td><p>The initial vector. 16 ASCII characters long.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">keySize</span></td>
+        <td><p>Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html">SymmetricAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The encrypted data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Encrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Encrypt(System.Byte%5B%5D%2CSystem.Security.Cryptography.PasswordDeriveBytes%2CSystem.Byte%5B%5D%2CSystem.Int32%2CHashBrowns.Symmetric.Enums.SymmetricAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L193">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Encrypt_" data-uid="HashBrowns.CryptoManager.Encrypt*"></a>
+  <h4 id="HashBrowns_CryptoManager_Encrypt_System_Byte___System_Security_Cryptography_PasswordDeriveBytes_System_Byte___System_Int32_HashBrowns_Symmetric_Enums_SymmetricAlgorithms_" data-uid="HashBrowns.CryptoManager.Encrypt(System.Byte[],System.Security.Cryptography.PasswordDeriveBytes,System.Byte[],System.Int32,HashBrowns.Symmetric.Enums.SymmetricAlgorithms)">Encrypt(byte[], PasswordDeriveBytes, byte[], int, SymmetricAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Encrypts the specified data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Encrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize, SymmetricAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.security.cryptography.passwordderivebytes">PasswordDeriveBytes</a></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>The key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">initialVector</span></td>
+        <td><p>The initial vector. 16 ASCII characters long.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">int</a></td>
+        <td><span class="parametername">keySize</span></td>
+        <td><p>Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES)</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html">SymmetricAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td><p>The algorithm.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The encrypted data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/JaCraig/HashBrowns/new/master/apiSpec/new?filename=HashBrowns_CryptoManager_Hash_System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_.md&amp;value=---%0Auid%3A%20HashBrowns.CryptoManager.Hash(System.Byte%5B%5D%2CHashBrowns.Hashing.Enums.HashingAlgorithms)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/JaCraig/HashBrowns/blob/master/HashBrowns/CryptoManager.cs/#L212">View Source</a>
+  </span>
+  <a id="HashBrowns_CryptoManager_Hash_" data-uid="HashBrowns.CryptoManager.Hash*"></a>
+  <h4 id="HashBrowns_CryptoManager_Hash_System_Byte___HashBrowns_Hashing_Enums_HashingAlgorithms_" data-uid="HashBrowns.CryptoManager.Hash(System.Byte[],HashBrowns.Hashing.Enums.HashingAlgorithms)">Hash(byte[], HashingAlgorithms)</h4>
+  <div class="markdown level1 summary"><p>Hashes the specified data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte[] Hash(byte[] data, HashingAlgorithms algorithm)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="HashBrowns.Hashing.Enums.HashingAlgorithms.html">HashingAlgorithms</a></td>
+        <td><span class="parametername">algorithm</span></td>
+        <td><p>The algorithm to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.byte">byte</a>[]</td>
+        <td><p>The hash of the data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+                </div>
+
+                <div class="copyright-footer">
+                    <span>&#169; James Craig. All rights reserved.</span>
+                </div>
+            </main>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+        <script type="text/javascript" src="../styles/jquery.twbsPagination.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/mark.js@8.11.1/dist/jquery.mark.min.js"></script>
+        <script type="text/javascript" src="../styles/url.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/anchor-js@5.0.0/anchor.min.js"></script>
+        <script type="text/javascript" src="../styles/docfx.js"></script>
+        <script type="text/javascript" src="../styles/main.js"></script>
+        <script type="text/javascript" src="../styles/singulink.js"></script>    </body>
+</html>
