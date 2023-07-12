@@ -94,13 +94,11 @@
                     <article class="content wrap" id="_content" data-uid="">
 <h1 id="hashbrowns">HashBrowns</h1>
 
-<p><a href="https://ci.appveyor.com/project/JaCraig/hashbrowns"><img src="https://ci.appveyor.com/api/projects/status/0e9q4k7van5qv3w3?svg=true" alt="Build status"></a></p>
+<p><a href="https://github.com/JaCraig/HashBrowns/actions/workflows/dotnet-publish.yml"><img src="https://github.com/JaCraig/HashBrowns/actions/workflows/dotnet-publish.yml/badge.svg" alt=".NET Publish"></a></p>
 <p>HashBrowns is a library to help simplify encryption within .Net.</p>
 <h2 id="basic-usage">Basic Usage</h2>
-<p>The system relies on an IoC wrapper called <a href="https://github.com/JaCraig/Canister">Canister</a>. While Canister has a built in IoC container, it's purpose is to actually wrap your container of choice in a way that simplifies setup and usage for other libraries that don't want to be tied to a specific IoC container. HashBrowns uses it to detect and pull in various info. As such you must set up Canister in order to use HashBrowns:</p>
-<pre><code>Canister.Builder.CreateContainer(new List&lt;ServiceDescriptor&gt;())
-                .RegisterHashBrowns()
-                .Build();
+<p>To use the library you first need to set up things on the ServiceCollection. Thankfully this only takes one call to do:</p>
+<pre><code>serviceCollection.AddCanisterModules();
 				
 </code></pre>
 <p>This is required prior to using the CryptoManager or extension methods class for the first time. Once Canister is set up, you can use the CryptoManager class:</p>
