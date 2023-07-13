@@ -1,16 +1,14 @@
 # HashBrowns
 
-[![Build status](https://ci.appveyor.com/api/projects/status/0e9q4k7van5qv3w3?svg=true)](https://ci.appveyor.com/project/JaCraig/hashbrowns)
+[![.NET Publish](https://github.com/JaCraig/HashBrowns/actions/workflows/dotnet-publish.yml/badge.svg)](https://github.com/JaCraig/HashBrowns/actions/workflows/dotnet-publish.yml)
 
 HashBrowns is a library to help simplify encryption within .Net.
 
 ## Basic Usage
 
-The system relies on an IoC wrapper called [Canister](https://github.com/JaCraig/Canister). While Canister has a built in IoC container, it's purpose is to actually wrap your container of choice in a way that simplifies setup and usage for other libraries that don't want to be tied to a specific IoC container. HashBrowns uses it to detect and pull in various info. As such you must set up Canister in order to use HashBrowns:
+To use the library you first need to set up things on the ServiceCollection. Thankfully this only takes one call to do:
 
-    Canister.Builder.CreateContainer(new List<ServiceDescriptor>())
-                    .RegisterHashBrowns()
-                    .Build();
+    serviceCollection.AddCanisterModules();
 					
 This is required prior to using the CryptoManager or extension methods class for the first time. Once Canister is set up, you can use the CryptoManager class:
 
