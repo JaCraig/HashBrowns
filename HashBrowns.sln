@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashBrowns", "HashBrowns\Ha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashBrowns.Tests", "HashBrowns.Tests\HashBrowns.Tests.csproj", "{D0DEF719-C3E9-40C0-940F-43DB57C71F76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HashBrowns.Example", "HashBrowns.Example\HashBrowns.Example.csproj", "{860E3D73-23DB-455B-962C-694695550350}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HashBrowns.Example", "HashBrowns.Example\HashBrowns.Example.csproj", "{860E3D73-23DB-455B-962C-694695550350}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BFE86179-F418-4C45-8E57-673B9AD0BC07}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
