@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.4"></a>
+## [3.0.4](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.4) (2023-7-25)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([acf99c0](https://www.github.com/JaCraig/HashBrowns/commit/acf99c033ad2616262ac974be60880117b2df7cb))
+
+### Other
+
+* Merge pull request #3 from JaCraig/dependabot/github_actions/dependencies-0717129e0a ([07b84fb](https://www.github.com/JaCraig/HashBrowns/commit/07b84fb9a6b1291e8529cd2fcb7c009fb2300362))
+* Merge pull request #4 from JaCraig/dependabot/nuget/dependencies-11a6826ceb ([438f296](https://www.github.com/JaCraig/HashBrowns/commit/438f2968225c33bd5e42ffd0c89ddd63cf45d40a))
+* bump the dependencies group with 2 updates ([0c2f18b](https://www.github.com/JaCraig/HashBrowns/commit/0c2f18bb6a8a9c128e307bc5a6ca5b9c71f475b6))
+* dependabot update ([db719e2](https://www.github.com/JaCraig/HashBrowns/commit/db719e2a11f3e1626f9487590ae0bd1422e9d388))
+* editorconfig added ([a2ddcf1](https://www.github.com/JaCraig/HashBrowns/commit/a2ddcf1d9657cf31c876c476c5f02cf11dc063a9))
+
 <a name="3.0.3"></a>
 ## [3.0.3](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.3) (2023-7-14)
 
