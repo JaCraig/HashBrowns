@@ -54,20 +54,15 @@
     "title": "Class HMACSHA512Hasher | HashBrowns API Reference",
     "keywords": "Class HMACSHA512Hasher HMACHMACSHA512 Inheritance object HashBaseClass HMACSHA512Hasher Implements IHash Inherited Members HashBaseClass.Hash(byte[]) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: HashBrowns.Hashing Assembly: HashBrowns.dll Syntax public class HMACSHA512Hasher : HashBaseClass, IHash Properties | Improve this Doc View Source Name Gets or sets the name. Declaration public override string Name { get; } Property Value Type Description string The name. Overrides HashBaseClass.Name See Also HashBaseClass Methods | Improve this Doc View Source GetAlgorithm() Gets the hash algorithm. Declaration protected override HashAlgorithm GetAlgorithm() Returns Type Description HashAlgorithm The hash algorithm to use Overrides HashBaseClass.GetAlgorithm() See Also HashBaseClass Implements IHash See Also HashBaseClass"
   },
-  "api/HashBrowns.Hashing.html": {
-    "href": "api/HashBrowns.Hashing.html",
-    "title": "Namespace HashBrowns.Hashing | HashBrowns API Reference",
-    "keywords": "Namespace HashBrowns.Hashing Classes HMACMD5Hasher HMACHMACMD5 HMACSHA1Hasher HMACHMACSHA1 HMACSHA256Hasher HMACHMACSHA256 HMACSHA384Hasher HMACHMACSHA384 HMACSHA512Hasher HMACHMACSHA512 MD5 MD5 SHA1 SHA1 SHA256 SHA256 SHA384 SHA384 SHA512 SHA512"
+  "api/HashBrowns.Hashing.Interfaces.IHash.html": {
+    "href": "api/HashBrowns.Hashing.Interfaces.IHash.html",
+    "title": "Interface IHash | HashBrowns API Reference",
+    "keywords": "Interface IHash Hash interface Namespace: HashBrowns.Hashing.Interfaces Assembly: HashBrowns.dll Syntax public interface IHash Properties | Improve this Doc View Source Name Gets or sets the name. Declaration string Name { get; } Property Value Type Description string The name. Methods | Improve this Doc View Source Hash(byte[]) Hashes the specified data. Declaration byte[] Hash(byte[] data) Parameters Type Name Description byte[] data The data. Returns Type Description byte[] The hash of the data."
   },
   "api/HashBrowns.Hashing.Interfaces.html": {
     "href": "api/HashBrowns.Hashing.Interfaces.html",
     "title": "Namespace HashBrowns.Hashing.Interfaces | HashBrowns API Reference",
     "keywords": "Namespace HashBrowns.Hashing.Interfaces Interfaces IHash Hash interface"
-  },
-  "api/HashBrowns.Hashing.Interfaces.IHash.html": {
-    "href": "api/HashBrowns.Hashing.Interfaces.IHash.html",
-    "title": "Interface IHash | HashBrowns API Reference",
-    "keywords": "Interface IHash Hash interface Namespace: HashBrowns.Hashing.Interfaces Assembly: HashBrowns.dll Syntax public interface IHash Properties | Improve this Doc View Source Name Gets or sets the name. Declaration string Name { get; } Property Value Type Description string The name. Methods | Improve this Doc View Source Hash(byte[]) Hashes the specified data. Declaration byte[] Hash(byte[] data) Parameters Type Name Description byte[] data The data. Returns Type Description byte[] The hash of the data."
   },
   "api/HashBrowns.Hashing.MD5.html": {
     "href": "api/HashBrowns.Hashing.MD5.html",
@@ -94,10 +89,10 @@
     "title": "Class SHA512 | HashBrowns API Reference",
     "keywords": "Class SHA512 SHA512 Inheritance object HashBaseClass SHA512 Implements IHash Inherited Members HashBaseClass.Hash(byte[]) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: HashBrowns.Hashing Assembly: HashBrowns.dll Syntax public class SHA512 : HashBaseClass, IHash Properties | Improve this Doc View Source Name Gets or sets the name. Declaration public override string Name { get; } Property Value Type Description string The name. Overrides HashBaseClass.Name See Also HashBaseClass Methods | Improve this Doc View Source GetAlgorithm() Gets the hash algorithm. Declaration protected override HashAlgorithm GetAlgorithm() Returns Type Description HashAlgorithm The hash algorithm to use Overrides HashBaseClass.GetAlgorithm() See Also HashBaseClass Implements IHash See Also HashBaseClass"
   },
-  "api/HashBrowns.html": {
-    "href": "api/HashBrowns.html",
-    "title": "Namespace HashBrowns | HashBrowns API Reference",
-    "keywords": "Namespace HashBrowns Classes CryptoManager Crypto manager ExtensionMethods Extension methods."
+  "api/HashBrowns.Hashing.html": {
+    "href": "api/HashBrowns.Hashing.html",
+    "title": "Namespace HashBrowns.Hashing | HashBrowns API Reference",
+    "keywords": "Namespace HashBrowns.Hashing Classes HMACMD5Hasher HMACHMACMD5 HMACSHA1Hasher HMACHMACSHA1 HMACSHA256Hasher HMACHMACSHA256 HMACSHA384Hasher HMACHMACSHA384 HMACSHA512Hasher HMACHMACSHA512 MD5 MD5 SHA1 SHA1 SHA256 SHA256 SHA384 SHA384 SHA512 SHA512"
   },
   "api/HashBrowns.Modules.HashBrownsModule.html": {
     "href": "api/HashBrowns.Modules.HashBrownsModule.html",
@@ -114,45 +109,40 @@
     "title": "Class Aes | HashBrowns API Reference",
     "keywords": "Class Aes AES algorithm Inheritance object SymmetricBaseClass Aes Implements ISymmetric Inherited Members SymmetricBaseClass.CreateInitialVector() SymmetricBaseClass.CreateKey() SymmetricBaseClass.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) SymmetricBaseClass.Decrypt(byte[], PasswordDeriveBytes, byte[], int) SymmetricBaseClass.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) SymmetricBaseClass.Encrypt(byte[], PasswordDeriveBytes, byte[], int) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: HashBrowns.Symmetric Assembly: HashBrowns.dll Syntax public class Aes : SymmetricBaseClass, ISymmetric Properties | Improve this Doc View Source Name Gets the name. Declaration public override string Name { get; } Property Value Type Description string The name. Overrides SymmetricBaseClass.Name See Also SymmetricBaseClass Methods | Improve this Doc View Source GetAlgorithm() Gets the algorithm. Declaration protected override SymmetricAlgorithm GetAlgorithm() Returns Type Description SymmetricAlgorithm The algorithm to use. Overrides SymmetricBaseClass.GetAlgorithm() See Also SymmetricBaseClass Implements ISymmetric See Also SymmetricBaseClass"
   },
-  "api/HashBrowns.Symmetric.BaseClasses.html": {
-    "href": "api/HashBrowns.Symmetric.BaseClasses.html",
-    "title": "Namespace HashBrowns.Symmetric.BaseClasses | HashBrowns API Reference",
-    "keywords": "Namespace HashBrowns.Symmetric.BaseClasses Classes SymmetricBaseClass Symmetric base class"
-  },
   "api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html": {
     "href": "api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html",
     "title": "Class SymmetricBaseClass | HashBrowns API Reference",
     "keywords": "Class SymmetricBaseClass Symmetric base class Inheritance object SymmetricBaseClass Aes DES RC2 Rijndael TripleDES Implements ISymmetric Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: HashBrowns.Symmetric.BaseClasses Assembly: HashBrowns.dll Syntax public abstract class SymmetricBaseClass : ISymmetric Constructors | Improve this Doc View Source SymmetricBaseClass() Initializes a new instance of the SymmetricBaseClass class. Declaration protected SymmetricBaseClass() See Also ISymmetric Properties | Improve this Doc View Source Name Gets the name. Declaration public abstract string Name { get; } Property Value Type Description string The name. See Also ISymmetric Methods | Improve this Doc View Source CreateInitialVector() Creates the initial vector. Declaration public byte[] CreateInitialVector() Returns Type Description byte[] The initial vector. See Also ISymmetric | Improve this Doc View Source CreateKey() Creates the key. Declaration public byte[] CreateKey() Returns Type Description byte[] The key. See Also ISymmetric | Improve this Doc View Source Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) Decrypts the specified data. Declaration public byte[] Decrypt(byte[] data, byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. byte[] key The key. byte[] salt The salt. HashingAlgorithms hashingAlgorithm The hashing algorithm. int passwordIterations The password iterations. byte[] initialVector The initial vector. 16 ASCII characters long. int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The decrypted data. See Also ISymmetric | Improve this Doc View Source Decrypt(byte[], PasswordDeriveBytes, byte[], int) Decrypts the specified data. Declaration public byte[] Decrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. PasswordDeriveBytes key The key. byte[] initialVector int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The decrypted data. See Also ISymmetric | Improve this Doc View Source Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) Encrypts the specified data. Declaration public byte[] Encrypt(byte[] data, byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. byte[] key The key. byte[] salt The salt. HashingAlgorithms hashingAlgorithm The hashing algorithm. int passwordIterations The password iterations. byte[] initialVector The initial vector. 16 ASCII characters long. int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The encrypted data. See Also ISymmetric | Improve this Doc View Source Encrypt(byte[], PasswordDeriveBytes, byte[], int) Encrypts the specified data. Declaration public byte[] Encrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. PasswordDeriveBytes key The key. byte[] initialVector The initial vector. 16 ASCII characters long. int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The encrypted data. See Also ISymmetric | Improve this Doc View Source GetAlgorithm() Gets the algorithm. Declaration protected abstract SymmetricAlgorithm GetAlgorithm() Returns Type Description SymmetricAlgorithm The algorithm to use. See Also ISymmetric Implements ISymmetric See Also ISymmetric"
+  },
+  "api/HashBrowns.Symmetric.BaseClasses.html": {
+    "href": "api/HashBrowns.Symmetric.BaseClasses.html",
+    "title": "Namespace HashBrowns.Symmetric.BaseClasses | HashBrowns API Reference",
+    "keywords": "Namespace HashBrowns.Symmetric.BaseClasses Classes SymmetricBaseClass Symmetric base class"
   },
   "api/HashBrowns.Symmetric.DES.html": {
     "href": "api/HashBrowns.Symmetric.DES.html",
     "title": "Class DES | HashBrowns API Reference",
     "keywords": "Class DES DES Inheritance object SymmetricBaseClass DES Implements ISymmetric Inherited Members SymmetricBaseClass.CreateInitialVector() SymmetricBaseClass.CreateKey() SymmetricBaseClass.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) SymmetricBaseClass.Decrypt(byte[], PasswordDeriveBytes, byte[], int) SymmetricBaseClass.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) SymmetricBaseClass.Encrypt(byte[], PasswordDeriveBytes, byte[], int) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: HashBrowns.Symmetric Assembly: HashBrowns.dll Syntax public class DES : SymmetricBaseClass, ISymmetric Properties | Improve this Doc View Source Name Gets the name. Declaration public override string Name { get; } Property Value Type Description string The name. Overrides SymmetricBaseClass.Name See Also SymmetricBaseClass Methods | Improve this Doc View Source GetAlgorithm() Gets the algorithm. Declaration protected override SymmetricAlgorithm GetAlgorithm() Returns Type Description SymmetricAlgorithm The algorithm to use. Overrides SymmetricBaseClass.GetAlgorithm() See Also SymmetricBaseClass Implements ISymmetric See Also SymmetricBaseClass"
   },
-  "api/HashBrowns.Symmetric.Enums.html": {
-    "href": "api/HashBrowns.Symmetric.Enums.html",
-    "title": "Namespace HashBrowns.Symmetric.Enums | HashBrowns API Reference",
-    "keywords": "Namespace HashBrowns.Symmetric.Enums Classes SymmetricAlgorithms Symmetric algorithms"
-  },
   "api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html": {
     "href": "api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html",
     "title": "Class SymmetricAlgorithms | HashBrowns API Reference",
     "keywords": "Class SymmetricAlgorithms Symmetric algorithms Inheritance object StringEnumBaseClass<SymmetricAlgorithms> SymmetricAlgorithms Inherited Members StringEnumBaseClass<SymmetricAlgorithms>.ToStringEnumBaseClass(string) StringEnumBaseClass<SymmetricAlgorithms>.ToString() StringEnumBaseClass<SymmetricAlgorithms>.Name object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) Namespace: HashBrowns.Symmetric.Enums Assembly: HashBrowns.dll Syntax public class SymmetricAlgorithms : StringEnumBaseClass<SymmetricAlgorithms> Constructors | Improve this Doc View Source SymmetricAlgorithms() Initializes a new instance of the SymmetricAlgorithms class. Declaration public SymmetricAlgorithms() See Also StringEnumBaseClass<TClass> | Improve this Doc View Source SymmetricAlgorithms(string) Initializes a new instance of the SymmetricAlgorithms class. Declaration public SymmetricAlgorithms(string name) Parameters Type Name Description string name The name. See Also StringEnumBaseClass<TClass> Fields | Improve this Doc View Source AES The aes Declaration public static SymmetricAlgorithms AES Field Value Type Description SymmetricAlgorithms See Also StringEnumBaseClass<TClass> | Improve this Doc View Source DES The DES Declaration public static SymmetricAlgorithms DES Field Value Type Description SymmetricAlgorithms See Also StringEnumBaseClass<TClass> | Improve this Doc View Source RC2 The rc2 Declaration public static SymmetricAlgorithms RC2 Field Value Type Description SymmetricAlgorithms See Also StringEnumBaseClass<TClass> | Improve this Doc View Source Rijndael The rijndael Declaration public static SymmetricAlgorithms Rijndael Field Value Type Description SymmetricAlgorithms See Also StringEnumBaseClass<TClass> | Improve this Doc View Source TripleDES The triple DES Declaration public static SymmetricAlgorithms TripleDES Field Value Type Description SymmetricAlgorithms See Also StringEnumBaseClass<TClass> See Also StringEnumBaseClass<TClass>"
   },
-  "api/HashBrowns.Symmetric.html": {
-    "href": "api/HashBrowns.Symmetric.html",
-    "title": "Namespace HashBrowns.Symmetric | HashBrowns API Reference",
-    "keywords": "Namespace HashBrowns.Symmetric Classes Aes AES algorithm DES DES RC2 RC2 Rijndael Rijndael TripleDES TripleDES"
-  },
-  "api/HashBrowns.Symmetric.Interfaces.html": {
-    "href": "api/HashBrowns.Symmetric.Interfaces.html",
-    "title": "Namespace HashBrowns.Symmetric.Interfaces | HashBrowns API Reference",
-    "keywords": "Namespace HashBrowns.Symmetric.Interfaces Interfaces ISymmetric Symmetric interface"
+  "api/HashBrowns.Symmetric.Enums.html": {
+    "href": "api/HashBrowns.Symmetric.Enums.html",
+    "title": "Namespace HashBrowns.Symmetric.Enums | HashBrowns API Reference",
+    "keywords": "Namespace HashBrowns.Symmetric.Enums Classes SymmetricAlgorithms Symmetric algorithms"
   },
   "api/HashBrowns.Symmetric.Interfaces.ISymmetric.html": {
     "href": "api/HashBrowns.Symmetric.Interfaces.ISymmetric.html",
     "title": "Interface ISymmetric | HashBrowns API Reference",
     "keywords": "Interface ISymmetric Symmetric interface Namespace: HashBrowns.Symmetric.Interfaces Assembly: HashBrowns.dll Syntax public interface ISymmetric Properties | Improve this Doc View Source Name Gets the name. Declaration string Name { get; } Property Value Type Description string The name. Methods | Improve this Doc View Source CreateInitialVector() Creates the initial vector. Declaration byte[] CreateInitialVector() Returns Type Description byte[] The initial vector. | Improve this Doc View Source CreateKey() Creates the key. Declaration byte[] CreateKey() Returns Type Description byte[] The key. | Improve this Doc View Source Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) Decrypts the specified data. Declaration byte[] Decrypt(byte[] data, byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. byte[] key The key. byte[] salt The salt. HashingAlgorithms hashingAlgorithm The hashing algorithm. int passwordIterations The password iterations. byte[] initialVector The initial vector. 16 ASCII characters long. int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The decrypted data. | Improve this Doc View Source Decrypt(byte[], PasswordDeriveBytes, byte[], int) Decrypts the specified data. Declaration byte[] Decrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. PasswordDeriveBytes key The key. byte[] initialVector int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The decrypted data. | Improve this Doc View Source Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) Encrypts the specified data. Declaration byte[] Encrypt(byte[] data, byte[] key, byte[] salt, HashingAlgorithms hashingAlgorithm, int passwordIterations, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. byte[] key The key. byte[] salt The salt. HashingAlgorithms hashingAlgorithm The hashing algorithm. int passwordIterations The password iterations. byte[] initialVector The initial vector. 16 ASCII characters long. int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The encrypted data. | Improve this Doc View Source Encrypt(byte[], PasswordDeriveBytes, byte[], int) Encrypts the specified data. Declaration byte[] Encrypt(byte[] data, PasswordDeriveBytes key, byte[] initialVector, int keySize) Parameters Type Name Description byte[] data The data. PasswordDeriveBytes key The key. byte[] initialVector The initial vector. 16 ASCII characters long. int keySize Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES) Returns Type Description byte[] The encrypted data."
+  },
+  "api/HashBrowns.Symmetric.Interfaces.html": {
+    "href": "api/HashBrowns.Symmetric.Interfaces.html",
+    "title": "Namespace HashBrowns.Symmetric.Interfaces | HashBrowns API Reference",
+    "keywords": "Namespace HashBrowns.Symmetric.Interfaces Interfaces ISymmetric Symmetric interface"
   },
   "api/HashBrowns.Symmetric.RC2.html": {
     "href": "api/HashBrowns.Symmetric.RC2.html",
@@ -169,10 +159,15 @@
     "title": "Class TripleDES | HashBrowns API Reference",
     "keywords": "Class TripleDES TripleDES Inheritance object SymmetricBaseClass TripleDES Implements ISymmetric Inherited Members SymmetricBaseClass.CreateInitialVector() SymmetricBaseClass.CreateKey() SymmetricBaseClass.Decrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) SymmetricBaseClass.Decrypt(byte[], PasswordDeriveBytes, byte[], int) SymmetricBaseClass.Encrypt(byte[], byte[], byte[], HashingAlgorithms, int, byte[], int) SymmetricBaseClass.Encrypt(byte[], PasswordDeriveBytes, byte[], int) object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Namespace: HashBrowns.Symmetric Assembly: HashBrowns.dll Syntax public class TripleDES : SymmetricBaseClass, ISymmetric Properties | Improve this Doc View Source Name Gets the name. Declaration public override string Name { get; } Property Value Type Description string The name. Overrides SymmetricBaseClass.Name See Also SymmetricBaseClass Methods | Improve this Doc View Source GetAlgorithm() Gets the algorithm. Declaration protected override SymmetricAlgorithm GetAlgorithm() Returns Type Description SymmetricAlgorithm The algorithm to use. Overrides SymmetricBaseClass.GetAlgorithm() See Also SymmetricBaseClass Implements ISymmetric See Also SymmetricBaseClass"
   },
-  "api/index.html": {
-    "href": "api/index.html",
-    "title": "Welcome | HashBrowns API Reference",
-    "keywords": "Welcome Welcome to the API browser."
+  "api/HashBrowns.Symmetric.html": {
+    "href": "api/HashBrowns.Symmetric.html",
+    "title": "Namespace HashBrowns.Symmetric | HashBrowns API Reference",
+    "keywords": "Namespace HashBrowns.Symmetric Classes Aes AES algorithm DES DES RC2 RC2 Rijndael Rijndael TripleDES TripleDES"
+  },
+  "api/HashBrowns.html": {
+    "href": "api/HashBrowns.html",
+    "title": "Namespace HashBrowns | HashBrowns API Reference",
+    "keywords": "Namespace HashBrowns Classes CryptoManager Crypto manager ExtensionMethods Extension methods."
   },
   "api/Microsoft.Extensions.DependencyInjection.HashRegistration.html": {
     "href": "api/Microsoft.Extensions.DependencyInjection.HashRegistration.html",
@@ -183,6 +178,11 @@
     "href": "api/Microsoft.Extensions.DependencyInjection.html",
     "title": "Namespace Microsoft.Extensions.DependencyInjection | HashBrowns API Reference",
     "keywords": "Namespace Microsoft.Extensions.DependencyInjection Classes HashRegistration Registration extension methods"
+  },
+  "api/index.html": {
+    "href": "api/index.html",
+    "title": "Welcome | HashBrowns API Reference",
+    "keywords": "Welcome Welcome to the API browser."
   },
   "articles/intro.html": {
     "href": "articles/intro.html",
