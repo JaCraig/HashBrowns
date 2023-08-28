@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.10"></a>
+## [3.0.10](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.10) (2023-8-28)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([a6acc9b](https://www.github.com/JaCraig/HashBrowns/commit/a6acc9b790291750c04d706f14cbbcef51967222))
+
+### Other
+
+* Merge pull request #16 from JaCraig/dependabot/nuget/dependencies-678a40ac77 ([7be4483](https://www.github.com/JaCraig/HashBrowns/commit/7be4483b38499c916938b2fa5518082c0f9129f9))
+* Merge pull request #17 from JaCraig/dependabot/nuget/dependencies-9994944bfe ([45c1c10](https://www.github.com/JaCraig/HashBrowns/commit/45c1c101557de86be63aee830900a8e3cc080980))
+* Merge pull request #18 from JaCraig/dependabot/nuget/dependencies-794e4debe1 ([a7fc8c7](https://www.github.com/JaCraig/HashBrowns/commit/a7fc8c730e47b8f516d77a789cfe847b01d02d5f))
+* Merge pull request #19 from JaCraig/dependabot/nuget/dependencies-80f90dfa14 ([02c9109](https://www.github.com/JaCraig/HashBrowns/commit/02c910944efa112400751090c2876eb09a40425b))
+* Merge pull request #20 from JaCraig/dependabot/nuget/dependencies-e618bbf73d ([0a29fe9](https://www.github.com/JaCraig/HashBrowns/commit/0a29fe977861b917aae611bf02977141829251a8))
+* bump the dependencies group with 1 update ([6c6bed0](https://www.github.com/JaCraig/HashBrowns/commit/6c6bed0cffb10fb9046c3bf7175a5afe60a2a096))
+* bump the dependencies group with 1 update ([3c8ddcf](https://www.github.com/JaCraig/HashBrowns/commit/3c8ddcf3c1a5ad222919ccece308e1f70438ff34))
+* bump the dependencies group with 1 update ([61ec4bc](https://www.github.com/JaCraig/HashBrowns/commit/61ec4bc393f189556fd882bf257524d3912a9c57))
+* bump the dependencies group with 1 update ([b73f2e7](https://www.github.com/JaCraig/HashBrowns/commit/b73f2e7d0a0728e6732a7cfd38144b0f3828ca04))
+
 <a name="3.0.9"></a>
 ## [3.0.9](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.9) (2023-8-22)
 
