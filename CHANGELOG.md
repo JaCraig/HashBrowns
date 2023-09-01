@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.14"></a>
+## [3.0.14](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.14) (2023-9-1)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([4c3967a](https://www.github.com/JaCraig/HashBrowns/commit/4c3967a095aca704a7e0da14e53728040650d79e))
+
+### Other
+
+* Merge pull request #27 from JaCraig/dependabot/nuget/dependencies-0bd41c19b0 ([c37f207](https://www.github.com/JaCraig/HashBrowns/commit/c37f20736e3cfdad2d9efec3edc030fa8ff05ca4))
+
 <a name="3.0.13"></a>
 ## [3.0.13](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.13) (2023-8-31)
 
