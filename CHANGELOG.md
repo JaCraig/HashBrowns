@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.18"></a>
+## [3.0.18](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.18) (2023-9-11)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([0af9d6e](https://www.github.com/JaCraig/HashBrowns/commit/0af9d6e77fc178f976adfd3db60ab198d9ce850a))
+
+### Other
+
+* Merge pull request #35 from JaCraig/dependabot/nuget/dependencies-b7b1c47501 ([45fb845](https://www.github.com/JaCraig/HashBrowns/commit/45fb8455afd90f28d196247fc12b4060cef63beb))
+* Merge pull request #36 from JaCraig/dependabot/nuget/dependencies-4a6e914b81 ([ec9fdb8](https://www.github.com/JaCraig/HashBrowns/commit/ec9fdb8647f2d5050139f7fe14f609ee99e19713))
+* Merge pull request #37 from JaCraig/dependabot/nuget/dependencies-a36d827776 ([1f81e4b](https://www.github.com/JaCraig/HashBrowns/commit/1f81e4b439d1abc18f1e919194f07a865247d736))
+* Merge pull request #38 from JaCraig/dependabot/nuget/dependencies-2560c786da ([cd7f871](https://www.github.com/JaCraig/HashBrowns/commit/cd7f871b555ec3069d83105d365873f1066f702b))
+* Merge pull request #39 from JaCraig/dependabot/nuget/dependencies-c6a47ec144 ([593627b](https://www.github.com/JaCraig/HashBrowns/commit/593627b7aa169def89560be0a53f6d8bbc20a6ac))
+* bump the dependencies group with 1 update ([1e2993d](https://www.github.com/JaCraig/HashBrowns/commit/1e2993d13f0a1bb1fac60770eca7895f9c7a467f))
+* bump the dependencies group with 1 update ([ba77a3a](https://www.github.com/JaCraig/HashBrowns/commit/ba77a3a3f7ec6bce0e1453c3702c92540765474e))
+* bump the dependencies group with 1 update ([c8f9385](https://www.github.com/JaCraig/HashBrowns/commit/c8f9385dfecaf296c71e1e29e641998e590d0615))
+* bump the dependencies group with 1 update ([eba2f2e](https://www.github.com/JaCraig/HashBrowns/commit/eba2f2e9bbbe219e79834b4cf81148ba31681a7f))
+
 <a name="3.0.17"></a>
 ## [3.0.17](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.17) (2023-9-6)
 
