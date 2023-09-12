@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.19"></a>
+## [3.0.19](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.19) (2023-9-12)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([23ad06d](https://www.github.com/JaCraig/HashBrowns/commit/23ad06d5e0035579d5ddce03d6a15449b924a784))
+
+### Other
+
+* Merge pull request #40 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-5ec2275540 ([30ecb21](https://www.github.com/JaCraig/HashBrowns/commit/30ecb21dc3e061014c251ffcb351bb0f25ad957b))
+* Merge pull request #41 from JaCraig/dependabot/nuget/dependencies-57e0346c22 ([3efc4b6](https://www.github.com/JaCraig/HashBrowns/commit/3efc4b6b0c007d4bdd37e5c338713a43a03ee0c5))
+* bump the dependencies group in /HashBrowns.Tests with 1 update ([2edee7f](https://www.github.com/JaCraig/HashBrowns/commit/2edee7f24b7ba798cc69c1cef56c9f646f0892bf))
+* Update dependabot.yml ([1c81dac](https://www.github.com/JaCraig/HashBrowns/commit/1c81dac19509fb44201358c51b6a01400bb36876))
+
 <a name="3.0.18"></a>
 ## [3.0.18](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.18) (2023-9-11)
 
