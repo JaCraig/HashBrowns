@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.47"></a>
+## [3.0.47](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.47) (2024-02-21)
+
+### Bug Fixes
+
+* bump the dependencies group with 1 update ([78924bd](https://www.github.com/JaCraig/HashBrowns/commit/78924bdfd347e8d0110de877e67ffc6585dfeefb))
+
+### Other
+
+* Merge pull request #149 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-af90ca8990 ([c8ab3da](https://www.github.com/JaCraig/HashBrowns/commit/c8ab3dade0ba79270797a136f86ecea2fc636230))
+* Merge pull request #150 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-69d41b035d ([6f9a7f4](https://www.github.com/JaCraig/HashBrowns/commit/6f9a7f4eeb0b930332d8b265402d635a96632269))
+* Merge pull request #151 from JaCraig/dependabot/nuget/dependencies-b50180d60c ([69e9b83](https://www.github.com/JaCraig/HashBrowns/commit/69e9b831e90e1837b765559f86b6271c00bf440b))
+* bump the dependencies group in /HashBrowns.Tests with 1 update ([4c33a86](https://www.github.com/JaCraig/HashBrowns/commit/4c33a8645d964d5fd7a87e6144c436bc3dbb6537))
+* bump the dependencies group in /HashBrowns.Tests with 1 update ([d9ccbb2](https://www.github.com/JaCraig/HashBrowns/commit/d9ccbb21a73357aaa1974fc4a0d99f1930f4861e))
+
 <a name="3.0.46"></a>
 ## [3.0.46](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.46) (2024-02-20)
 
