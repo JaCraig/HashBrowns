@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.64"></a>
+## [3.0.64](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.64) (2024-04-29)
+
+### Bug Fixes
+
+* bump the dependencies group with 2 updates ([efcc547](https://www.github.com/JaCraig/HashBrowns/commit/efcc54778b1ff71a836122e3c2ed2b47d3b3603c))
+
+### Other
+
+* Merge pull request #195 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-806e790bd0 ([c3cd36a](https://www.github.com/JaCraig/HashBrowns/commit/c3cd36aeca40b8fbc445168a476e11be027ece4c))
+* Merge pull request #196 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-3887d64c16 ([4441eeb](https://www.github.com/JaCraig/HashBrowns/commit/4441eeb49d2319b4e03de61a2e9140dd2396c903))
+* Merge pull request #197 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-19ce10f744 ([da8a14f](https://www.github.com/JaCraig/HashBrowns/commit/da8a14f11a03254d4980b7f89092e0a0709f3506))
+* Merge pull request #198 from JaCraig/dependabot/github_actions/dependencies-67cf71b959 ([7f0c8ce](https://www.github.com/JaCraig/HashBrowns/commit/7f0c8ce2db53b263e5687aa62b38942f1b700fd8))
+* Merge pull request #199 from JaCraig/dependabot/nuget/dependencies-51355d8f44 ([f59ae81](https://www.github.com/JaCraig/HashBrowns/commit/f59ae81d606df1db0422aeb5c21ffa7efa0b3cde))
+* bump dependabot/fetch-metadata in the dependencies group ([32bfc2f](https://www.github.com/JaCraig/HashBrowns/commit/32bfc2ff67fd0a9498aba5f224282e0ebd6f66ed))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([3eb1d78](https://www.github.com/JaCraig/HashBrowns/commit/3eb1d781347ba618a177b5aac68b4d73ca54ff0f))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([358a60c](https://www.github.com/JaCraig/HashBrowns/commit/358a60c27adb7aef62c851e593910a04391aef24))
+* bump the dependencies group in /HashBrowns.Tests with 3 updates ([52f93e6](https://www.github.com/JaCraig/HashBrowns/commit/52f93e61d7a3c24207664d4096e3781d388d14c3))
+
 <a name="3.0.63"></a>
 ## [3.0.63](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.63) (2024-04-11)
 
