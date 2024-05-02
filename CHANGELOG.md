@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.67"></a>
+## [3.0.67](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.67) (2024-05-02)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.30 to 5.1.31 in the dependencies group ([8d6d47b](https://www.github.com/JaCraig/HashBrowns/commit/8d6d47bbfeaf8169ff5d47f49b087bf78e05ac5a))
+
+### Other
+
+* Merge pull request #204 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-0d0bb6ef21 ([24417fb](https://www.github.com/JaCraig/HashBrowns/commit/24417fbf21dcd98865281c0ab0e2db0a874bb279))
+* Merge pull request #205 from JaCraig/dependabot/nuget/dependencies-d12e33da90 ([fe8eeca](https://www.github.com/JaCraig/HashBrowns/commit/fe8eeca319a9e98f768573453f4ccbba817a42d1))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([827a3c3](https://www.github.com/JaCraig/HashBrowns/commit/827a3c3790e92df7ecda181283c7c4a40c4a5327))
+
 <a name="3.0.66"></a>
 ## [3.0.66](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.66) (2024-05-01)
 
