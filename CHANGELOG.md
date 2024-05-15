@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.70"></a>
+## [3.0.70](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.70) (2024-05-15)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.33 to 5.1.34 in the dependencies group ([d06fc8b](https://www.github.com/JaCraig/HashBrowns/commit/d06fc8b2d2a57e6bfa4a2f3d1018ead439ef90ba))
+
+### Other
+
+* Merge pull request #211 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-50f11438a7 ([945e4fd](https://www.github.com/JaCraig/HashBrowns/commit/945e4fddb7ef2686b9f41b450d2aea900ef65779))
+* Merge pull request #212 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-1a26926a81 ([86634ea](https://www.github.com/JaCraig/HashBrowns/commit/86634ea7269a71506e4679b1eccad36b2d09cbee))
+* Merge pull request #213 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-ef690fe79b ([fc64369](https://www.github.com/JaCraig/HashBrowns/commit/fc643696542608cfbe787421c41d3db5b756a8fc))
+* Merge pull request #214 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-0e57b7119a ([b877171](https://www.github.com/JaCraig/HashBrowns/commit/b877171880efc493fc15ae6dd6881a6243a8b421))
+* Merge pull request #215 from JaCraig/dependabot/nuget/dependencies-d9acf7e816 ([fec4da9](https://www.github.com/JaCraig/HashBrowns/commit/fec4da9d2bd7e2c270ea1b422643eab786676157))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([f914a57](https://www.github.com/JaCraig/HashBrowns/commit/f914a57480fa3bdfec968139b7d1f5ff38812682))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([62924a4](https://www.github.com/JaCraig/HashBrowns/commit/62924a49ad03e4b0ac446ca5cdf95acc175d1e53))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([1fa7f0e](https://www.github.com/JaCraig/HashBrowns/commit/1fa7f0e474e0977b81113f4e59091f11339a9c94))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([9663498](https://www.github.com/JaCraig/HashBrowns/commit/96634988f95153c96ed061b09f151c03f57eeed9))
+
 <a name="3.0.69"></a>
 ## [3.0.69](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.69) (2024-05-07)
 
