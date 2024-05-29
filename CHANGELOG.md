@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.72"></a>
+## [3.0.72](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.72) (2024-05-29)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.35 to 5.1.36 in the dependencies group ([b7c0a1b](https://www.github.com/JaCraig/HashBrowns/commit/b7c0a1bf45c0e80f968c6187fe86a1539945da95))
+
+### Other
+
+* --- ([185ff89](https://www.github.com/JaCraig/HashBrowns/commit/185ff89b6e556df3f970804d64fe15bb1f1cd21c))
+* Merge pull request #217 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-eb0187e5bd ([8398d72](https://www.github.com/JaCraig/HashBrowns/commit/8398d72efabac773ff539e3c4ff90243e197021f))
+* Merge pull request #218 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-2c9eff1097 ([a017ed0](https://www.github.com/JaCraig/HashBrowns/commit/a017ed0a94f9c33b8f09b5306c7d5fbd49a84497))
+* Merge pull request #219 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-b7224192ad ([e86e87c](https://www.github.com/JaCraig/HashBrowns/commit/e86e87cdafe5de5576a825fadcbc1e1f92816338))
+* Merge pull request #220 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-17bfdebd43 ([c2fcf7b](https://www.github.com/JaCraig/HashBrowns/commit/c2fcf7b9be8b39d787edcbe96d91a15d58718c13))
+* Merge pull request #221 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-d10d8338a5 ([f9a91df](https://www.github.com/JaCraig/HashBrowns/commit/f9a91dfc21651f56b1c725669ab9cba461f1888d))
+* Merge pull request #222 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-63bf006411 ([3c3cc8b](https://www.github.com/JaCraig/HashBrowns/commit/3c3cc8bbc565ba71c6e60b40a5cf4610186bc46c))
+* Merge pull request #223 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-e000669da3 ([c11fc81](https://www.github.com/JaCraig/HashBrowns/commit/c11fc8165683ae206180c93417ce5f206354da42))
+* Merge pull request #224 from JaCraig/dependabot/nuget/dependencies-233bfabb76 ([ced2083](https://www.github.com/JaCraig/HashBrowns/commit/ced2083d442c2ed0fe2b8170821c696e89108a53))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([2d62add](https://www.github.com/JaCraig/HashBrowns/commit/2d62add798d6d81927ea3890bd2355fb12f1145e))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([78da487](https://www.github.com/JaCraig/HashBrowns/commit/78da487325e17922fdbb5c17b1cf672a0a900671))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([7f257ef](https://www.github.com/JaCraig/HashBrowns/commit/7f257efb2945e9f40a6728e7dae4c26f1663fce8))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([81dbe43](https://www.github.com/JaCraig/HashBrowns/commit/81dbe43972ea112efd075d728add390a6511bc79))
+* bump Microsoft.NET.Test.Sdk ([095ae25](https://www.github.com/JaCraig/HashBrowns/commit/095ae25cebd4e62d405561d4fe2bf80e28a7ffe5))
+* bump the dependencies group in /HashBrowns.Tests with 2 updates ([a5cfb73](https://www.github.com/JaCraig/HashBrowns/commit/a5cfb73c86dac47ac52bdf7047fde8fe281dfdae))
+
 <a name="3.0.71"></a>
 ## [3.0.71](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.71) (2024-05-16)
 
