@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.73"></a>
+## [3.0.73](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.73) (2024-05-30)
+
+### Bug Fixes
+
+* bump BigBook from 5.1.36 to 5.1.37 in the dependencies group ([99558f7](https://www.github.com/JaCraig/HashBrowns/commit/99558f788500928a09b7fefad0b171f23bb399a1))
+
+### Other
+
+* Merge pull request #225 from JaCraig/dependabot/nuget/dependencies-bed6254b32 ([c37fa44](https://www.github.com/JaCraig/HashBrowns/commit/c37fa442ef5dac4b2dc88d5fcf59110d04cbf906))
+
 <a name="3.0.72"></a>
 ## [3.0.72](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.72) (2024-05-29)
 
