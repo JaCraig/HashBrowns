@@ -9,7 +9,7 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/JaCraig/HashBrowns/</PackageProjectUrl>
     <PackageTags>MD5, SHA1, SHA256, SHA512, AES, DES, TripleDES, Rijndael</PackageTags>
-    <Version>3.0.84</Version>
+    <Version>3.0.85</Version>
     <Nullable>enable</Nullable>
     <Title>HashBrowns</Title>
     <PackageIcon>Icon.png</PackageIcon>
