@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="3.0.94"></a>
+## [3.0.94](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.94) (2024-10-29)
+
+### Bug Fixes
+
+* bump versionize from 1.27.0 to 2.0.0 in the dependencies group ([d55d24d](https://www.github.com/JaCraig/HashBrowns/commit/d55d24d1091f541ba66cff2ebb721e349a864d77))
+* bump versionize from 2.0.0 to 2.1.0 in the dependencies group ([3b56376](https://www.github.com/JaCraig/HashBrowns/commit/3b56376c9d8f7ad2ce9191c0ffe0c608072339ef))
+
+### Other
+
+* Merge pull request #297 from JaCraig/dependabot/nuget/dependencies-9c36df7c76 ([ed61b40](https://www.github.com/JaCraig/HashBrowns/commit/ed61b40e468458890a56d05d287441f2f0a527fb))
+* Merge pull request #298 from JaCraig/dependabot/nuget/dependencies-3894128c1d ([c6f3080](https://www.github.com/JaCraig/HashBrowns/commit/c6f3080ab82ac6a8f9497bb51ad0e2da185d63ee))
+* Merge pull request #299 from JaCraig/dependabot/github_actions/dependencies-18190d55f2 ([8ff8e5f](https://www.github.com/JaCraig/HashBrowns/commit/8ff8e5f76fd843add8bc80cdb6f3277b5165f5d7))
+* bump actions/setup-dotnet in the dependencies group ([f88f607](https://www.github.com/JaCraig/HashBrowns/commit/f88f60778b951adfa593cd4d8fae620ca787ffaf))
+* Update versionize configuration ([8f36ed8](https://www.github.com/JaCraig/HashBrowns/commit/8f36ed8e21102796d243176d9b1818da2548b8b9))
+
 <a name="3.0.93"></a>
 ## [3.0.93](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.93) (2024-10-15)
 
