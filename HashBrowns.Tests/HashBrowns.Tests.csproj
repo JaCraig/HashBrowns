@@ -27,5 +27,4 @@
   <ItemGroup>
     <ProjectReference Include="..\HashBrowns\HashBrowns.csproj" />
   </ItemGroup>
-
 </Project>
