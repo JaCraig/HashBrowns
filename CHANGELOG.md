@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.0"></a>
+## [4.0.0](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.0) (2024-11-24)
+
+### Features
+
+* Update configs, refactor code, and target .NET 8.0/9.0 ([43c0d8e](https://www.github.com/JaCraig/HashBrowns/commit/43c0d8e5919a4eef0811c507118a1a6aa29c595d))
+
+### Breaking Changes
+
+* Update configs, refactor code, and target .NET 8.0/9.0 ([43c0d8e](https://www.github.com/JaCraig/HashBrowns/commit/43c0d8e5919a4eef0811c507118a1a6aa29c595d))
+
+### Other
+
+* Merge pull request #312 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-956fc5c724 ([520b217](https://www.github.com/JaCraig/HashBrowns/commit/520b217967208cc4f3c6b54290e958599f30d964))
+* Merge pull request #313 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-617062173c ([8b36dce](https://www.github.com/JaCraig/HashBrowns/commit/8b36dce20095ff44c57f36bc0dbcd7ad90f73f8e))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([a71b082](https://www.github.com/JaCraig/HashBrowns/commit/a71b082bbd787d145454f606f2a1ef48bf5be137))
+* bump Microsoft.NET.Test.Sdk ([f4225ba](https://www.github.com/JaCraig/HashBrowns/commit/f4225ba5154a10b888ca24a84041e579dc5f967e))
+* merge ([4ab838c](https://www.github.com/JaCraig/HashBrowns/commit/4ab838c3ea57607355594b28d2fdbc0ac710d690))
+* Update husky to 0.7.1 and add rollForward properties ([3a7abca](https://www.github.com/JaCraig/HashBrowns/commit/3a7abca16c0c21fdbf18c26e53f1a0c0f4d4e264))
+
 <a name="3.0.100"></a>
 ## [3.0.100](https://www.github.com/JaCraig/HashBrowns/releases/tag/v3.0.100) (2024-11-12)
 
