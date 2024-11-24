@@ -1336,6 +1336,15 @@ references:
   fullName.vb: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Canister.Interfaces.ICanisterConfiguration)
   nameWithType: HashRegistration.RegisterHashBrowns(ICanisterConfiguration?)
   nameWithType.vb: HashRegistration.RegisterHashBrowns(ICanisterConfiguration)
+- uid: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: RegisterHashBrowns(IServiceCollection?)
+  href: api/Microsoft.Extensions.DependencyInjection.HashRegistration.html#Microsoft_Extensions_DependencyInjection_HashRegistration_RegisterHashBrowns_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name.vb: RegisterHashBrowns(IServiceCollection)
+  fullName: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Microsoft.Extensions.DependencyInjection.IServiceCollection?)
+  fullName.vb: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: HashRegistration.RegisterHashBrowns(IServiceCollection?)
+  nameWithType.vb: HashRegistration.RegisterHashBrowns(IServiceCollection)
 - uid: Microsoft.Extensions.DependencyInjection.HashRegistration.RegisterHashBrowns*
   name: RegisterHashBrowns
   href: api/Microsoft.Extensions.DependencyInjection.HashRegistration.html#Microsoft_Extensions_DependencyInjection_HashRegistration_RegisterHashBrowns_
