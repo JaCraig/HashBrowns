@@ -1,4 +1,4 @@
-﻿using BigBook;
+﻿using BigBook.ExtensionMethods;
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric;
 using HashBrowns.Symmetric.Interfaces;
@@ -10,9 +10,9 @@ namespace HashBrowns.Tests.Symmetric
 {
     public class SymmetricTests : TestBaseClass
     {
-        protected override Type ObjectType { get; set; }
+        protected override Type? ObjectType { get; set; }
 
-        public static readonly TheoryData<ISymmetric, int> TestData = new TheoryData<ISymmetric, int>
+        public static readonly TheoryData<ISymmetric, int> TestData = new()
         {
             {new Aes(),256 },
             {new DES(),64 },
@@ -23,17 +23,11 @@ namespace HashBrowns.Tests.Symmetric
 
         [Theory]
         [MemberData(nameof(TestData))]
-        public void CreateInitialVector(ISymmetric testObject, int keySize)
-        {
-            Assert.NotNull(testObject.CreateInitialVector());
-        }
+        public void CreateInitialVector(ISymmetric testObject, int _) => Assert.NotNull(testObject.CreateInitialVector());
 
         [Theory]
         [MemberData(nameof(TestData))]
-        public void CreateKey(ISymmetric testObject, int keySize)
-        {
-            Assert.NotNull(testObject.CreateKey());
-        }
+        public void CreateKey(ISymmetric testObject, int _) => Assert.NotNull(testObject.CreateKey());
 
         [Theory]
         [MemberData(nameof(TestData))]

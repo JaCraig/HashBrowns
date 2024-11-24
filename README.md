@@ -8,11 +8,11 @@ HashBrowns is a library to help simplify encryption within .Net.
 
 To use the library you first need to set up things on the ServiceCollection. Thankfully this only takes one call to do:
 
-    serviceCollection.AddCanisterModules();
+    serviceCollection.RegisterHashBrowns();
 					
-This is required prior to using the CryptoManager or extension methods class for the first time. Once Canister is set up, you can use the CryptoManager class:
+This is required prior to using the CryptoManager or extension methods class for the first time. Once it is set up, you can use the CryptoManager class after getting an instance from the IoC container:
 
-    var Instance = Canister.Builder.Bootstrapper.Resolve<CryptoManager>().Encrypt(...);
+    var Instance = cryptoManagerInstance.Encrypt(...);
 	
 However instead of having the IoC container create the class, you can also use the extension methods found in the HashBrowns namespace:
 

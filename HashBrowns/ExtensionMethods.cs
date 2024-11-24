@@ -14,7 +14,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-using BigBook;
+using BigBook.ExtensionMethods;
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric.Enums;
 using Microsoft.Extensions.DependencyInjection;
@@ -32,12 +32,12 @@ namespace HashBrowns
         /// <summary>
         /// The service provider lock
         /// </summary>
-        private static readonly object ServiceProviderLock = new object();
+        private static readonly object ServiceProviderLock = new();
 
         /// <summary>
         /// The service provider
         /// </summary>
-        private static IServiceProvider ServiceProvider;
+        private static IServiceProvider? ServiceProvider;
 
         /// <summary>
         /// Decrypts the specified data.
@@ -49,6 +49,7 @@ namespace HashBrowns
         /// <param name="passwordIterations">The password iterations.</param>
         /// <param name="initialVector">The initial vector with a length of 16 bytes.</param>
         /// <param name="keySize">Size of the key. (64, 128, 192, 256, etc.)</param>
+        /// <param name="algorithm"></param>
         /// <returns>The decrypted data.</returns>
         public static byte[] Decrypt(this byte[] data,
                     byte[] key,
@@ -158,6 +159,7 @@ namespace HashBrowns
         /// <param name="passwordIterations">The password iterations.</param>
         /// <param name="initialVector">The initial vector with a length of 16 bytes.</param>
         /// <param name="keySize">Size of the key. (64, 128, 192, 256, etc.)</param>
+        /// <param name="algorithm"></param>
         /// <returns>The encrypted data.</returns>
         public static byte[] Encrypt(this byte[] data,
                     byte[] key,
@@ -266,9 +268,9 @@ namespace HashBrowns
         /// <returns>The hashed result.</returns>
         public static byte[] Hash(this byte[] data, HashingAlgorithms algorithm)
         {
-            if (data is null || string.IsNullOrEmpty(algorithm))
-                return Array.Empty<byte>();
-            return GetServiceProvider()?.GetService<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
+            return data is null || string.IsNullOrEmpty(algorithm)
+                ? Array.Empty<byte>()
+                : GetServiceProvider()?.GetService<CryptoManager>()?.Hash(data, algorithm) ?? Array.Empty<byte>();
         }
 
         /// <summary>
@@ -280,9 +282,9 @@ namespace HashBrowns
         /// <returns>The hashed result.</returns>
         public static byte[] Hash(this string data, HashingAlgorithms algorithm, Encoding? encoding = null)
         {
-            if (string.IsNullOrEmpty(data) || string.IsNullOrEmpty(algorithm))
-                return Array.Empty<byte>();
-            return GetServiceProvider()?.GetService<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
+            return string.IsNullOrEmpty(data) || string.IsNullOrEmpty(algorithm)
+                ? Array.Empty<byte>()
+                : GetServiceProvider()?.GetService<CryptoManager>()?.Hash(data.ToByteArray(encoding), algorithm) ?? Array.Empty<byte>();
         }
 
         /// <summary>

@@ -64,10 +64,7 @@ namespace HashBrowns
         public static PasswordDeriveBytes CreateKey(byte[] key,
                     byte[] salt,
                     HashingAlgorithms hashingAlgorithm,
-                    int passwordIterations)
-        {
-            return new PasswordDeriveBytes(key, salt, hashingAlgorithm, passwordIterations);
-        }
+                    int passwordIterations) => new(key, salt, hashingAlgorithm, passwordIterations);
 
         /// <summary>
         /// Creates the initial vector.
@@ -76,7 +73,7 @@ namespace HashBrowns
         /// <returns>The initial vector.</returns>
         public byte[] CreateRandomInitialVector(SymmetricAlgorithms algorithm)
         {
-            var SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            ISymmetric? SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (SymmetricAlgorithm == null)
                 return Array.Empty<byte>();
             return SymmetricAlgorithm.CreateInitialVector();
@@ -89,7 +86,7 @@ namespace HashBrowns
         /// <returns>The key</returns>
         public byte[] CreateRandomKey(SymmetricAlgorithms algorithm)
         {
-            var SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            ISymmetric? SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (SymmetricAlgorithm == null)
                 return Array.Empty<byte>();
             return SymmetricAlgorithm.CreateKey();
@@ -107,6 +104,7 @@ namespace HashBrowns
         /// <param name="keySize">
         /// Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES)
         /// </param>
+        /// <param name="algorithm"></param>
         /// <returns>The decrypted data.</returns>
         public byte[] Decrypt(
                     byte[] data,
@@ -118,7 +116,7 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            var SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            ISymmetric? SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (SymmetricAlgorithm == null)
                 return Array.Empty<byte>();
             key = (byte[])key.Clone();
@@ -143,7 +141,7 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            var SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            ISymmetric? SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (SymmetricAlgorithm == null)
                 return Array.Empty<byte>();
             return SymmetricAlgorithm.Decrypt(data, key, initialVector, keySize);
@@ -161,6 +159,7 @@ namespace HashBrowns
         /// <param name="keySize">
         /// Size of the key. Can be 64 (DES only), 128 (AES), 192 (AES and Triple DES), or 256 (AES)
         /// </param>
+        /// <param name="algorithm"></param>
         /// <returns>The encrypted data.</returns>
         public byte[] Encrypt(
                     byte[] data,
@@ -172,7 +171,7 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            var SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            ISymmetric? SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (SymmetricAlgorithm == null)
                 return Array.Empty<byte>();
             key = (byte[])key.Clone();
@@ -197,7 +196,7 @@ namespace HashBrowns
                     int keySize,
                     SymmetricAlgorithms algorithm)
         {
-            var SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            ISymmetric? SymmetricAlgorithm = Symmetrics.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (SymmetricAlgorithm == null)
                 return Array.Empty<byte>();
             return SymmetricAlgorithm.Encrypt(data, key, initialVector, keySize);
@@ -211,7 +210,7 @@ namespace HashBrowns
         /// <returns>The hash of the data.</returns>
         public byte[] Hash(byte[] data, HashingAlgorithms algorithm)
         {
-            var HashingAlgorithm = Hashes.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
+            IHash? HashingAlgorithm = Hashes.FirstOrDefault(x => string.Equals(x.Name, algorithm.ToString(), StringComparison.OrdinalIgnoreCase));
             if (HashingAlgorithm == null)
                 return Array.Empty<byte>();
             return HashingAlgorithm.Hash(data);

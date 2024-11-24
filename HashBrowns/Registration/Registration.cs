@@ -14,7 +14,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
+using BigBook.Registration;
 using Canister.Interfaces;
+using HashBrowns;
+using HashBrowns.Hashing.Interfaces;
+using HashBrowns.Symmetric.Interfaces;
 
 namespace Microsoft.Extensions.DependencyInjection
 {
@@ -32,6 +36,21 @@ namespace Microsoft.Extensions.DependencyInjection
         {
             return bootstrapper?.AddAssembly(typeof(HashRegistration).Assembly)
                                .RegisterBigBookOfDataTypes();
+        }
+
+        /// <summary>
+        /// Registers the HashBrowns services with the specified IServiceCollection.
+        /// </summary>
+        /// <param name="services">The IServiceCollection to add the services to.</param>
+        /// <returns>The IServiceCollection with the registered services.</returns>
+        public static IServiceCollection? RegisterHashBrowns(this IServiceCollection? services)
+        {
+            if (services.Exists<CryptoManager>())
+                return services;
+            return services?.AddAllTransient<IHash>()
+                         ?.AddAllTransient<ISymmetric>()
+                         ?.AddSingleton<CryptoManager>()
+                         ?.RegisterBigBookOfDataTypes();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿using BigBook;
+﻿using BigBook.ExtensionMethods;
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric.Enums;
 using HashBrowns.Tests.BaseClasses;
@@ -16,7 +16,7 @@ namespace HashBrowns.Tests
 
         private CryptoManager TestObject2 { get; set; }
 
-        public static readonly TheoryData<HashingAlgorithms> HashTestData = new TheoryData<HashingAlgorithms>
+        public static readonly TheoryData<HashingAlgorithms> HashTestData = new()
         {
             {HashingAlgorithms.HMACMD5},
             {HashingAlgorithms.HMACSHA1},
@@ -30,7 +30,7 @@ namespace HashBrowns.Tests
             {HashingAlgorithms.SHA512},
         };
 
-        public static readonly TheoryData<SymmetricAlgorithms, int> SymmetricTestData = new TheoryData<SymmetricAlgorithms, int>
+        public static readonly TheoryData<SymmetricAlgorithms, int> SymmetricTestData = new()
         {
             {SymmetricAlgorithms.AES,256},
             {SymmetricAlgorithms.DES,64},
@@ -41,17 +41,11 @@ namespace HashBrowns.Tests
 
         [Theory]
         [MemberData(nameof(SymmetricTestData))]
-        public void CreateInitialVector(SymmetricAlgorithms algorithms, int keySize)
-        {
-            Assert.NotNull(TestObject2.CreateRandomInitialVector(algorithms));
-        }
+        public void CreateInitialVector(SymmetricAlgorithms algorithms, int _) => Assert.NotNull(TestObject2.CreateRandomInitialVector(algorithms));
 
         [Theory]
         [MemberData(nameof(SymmetricTestData))]
-        public void CreateKey(SymmetricAlgorithms algorithms, int keySize)
-        {
-            Assert.NotNull(TestObject2.CreateRandomKey(algorithms));
-        }
+        public void CreateKey(SymmetricAlgorithms algorithms, int _) => Assert.NotNull(TestObject2.CreateRandomKey(algorithms));
 
         [Theory]
         [MemberData(nameof(SymmetricTestData))]
@@ -97,9 +91,6 @@ namespace HashBrowns.Tests
 
         [Theory]
         [MemberData(nameof(HashTestData))]
-        public void Hash(HashingAlgorithms algorithms)
-        {
-            Assert.NotNull(TestObject2.Hash(new byte[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, algorithms));
-        }
+        public void Hash(HashingAlgorithms algorithms) => Assert.NotNull(TestObject2.Hash(new byte[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 }, algorithms));
     }
 }

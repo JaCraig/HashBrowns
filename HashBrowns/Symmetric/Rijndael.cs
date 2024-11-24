@@ -37,9 +37,6 @@ namespace HashBrowns.Symmetric
         /// Gets the algorithm.
         /// </summary>
         /// <returns>The algorithm to use.</returns>
-        protected override SymmetricAlgorithm GetAlgorithm()
-        {
-            return new RijndaelManaged();
-        }
+        protected override SymmetricAlgorithm GetAlgorithm() => new RijndaelManaged();
     }
 }

@@ -36,9 +36,6 @@ namespace HashBrowns.Symmetric
         /// Gets the algorithm.
         /// </summary>
         /// <returns>The algorithm to use.</returns>
-        protected override SymmetricAlgorithm GetAlgorithm()
-        {
-            return new TripleDESCryptoServiceProvider();
-        }
+        protected override SymmetricAlgorithm GetAlgorithm() => new TripleDESCryptoServiceProvider();
     }
 }

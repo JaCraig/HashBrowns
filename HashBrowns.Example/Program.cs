@@ -1,4 +1,5 @@
 ﻿using BigBook;
+using BigBook.ExtensionMethods;
 using HashBrowns.Hashing.Enums;
 using HashBrowns.Symmetric.Enums;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +10,7 @@ namespace HashBrowns.Example
     /// <summary>
     /// This is just an example of how to use HashBrowns to hash and encrypt strings.
     /// </summary>
-    internal class Program
+    internal static class Program
     {
         /// <summary>
         /// Defines the entry point of the application.
@@ -18,7 +19,7 @@ namespace HashBrowns.Example
         private static void Main(string[] args)
         {
             // Setup the DI
-            var Services = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
+            _ = new ServiceCollection().AddCanisterModules()?.BuildServiceProvider();
 
             // Hash the string using SHA256
             Console.WriteLine("Let's hash some strings!".Hash(HashingAlgorithms.SHA256).ToString(Encoding.UTF8));

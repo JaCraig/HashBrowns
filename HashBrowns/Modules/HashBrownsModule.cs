@@ -15,8 +15,6 @@ limitations under the License.
 */
 
 using Canister.Interfaces;
-using HashBrowns.Hashing.Interfaces;
-using HashBrowns.Symmetric.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace HashBrowns.Modules
@@ -36,11 +34,6 @@ namespace HashBrowns.Modules
         /// Loads the module using the bootstrapper
         /// </summary>
         /// <param name="bootstrapper">The bootstrapper.</param>
-        public void Load(IServiceCollection? bootstrapper)
-        {
-            bootstrapper?.AddAllTransient<IHash>()
-                         ?.AddAllTransient<ISymmetric>()
-                         ?.AddSingleton<CryptoManager>();
-        }
+        public void Load(IServiceCollection? bootstrapper) => bootstrapper?.RegisterHashBrowns();
     }
 }
