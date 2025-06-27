@@ -18,7 +18,11 @@
           "relative_path": "api/HashBrowns.CryptoManager.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.CryptoManager",
+      "Summary": "<p sourcefile=\"api/HashBrowns.CryptoManager.yml\" sourcestartlinenumber=\"1\">Crypto manager</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -28,7 +32,11 @@
           "relative_path": "api/HashBrowns.ExtensionMethods.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.ExtensionMethods",
+      "Summary": "<p sourcefile=\"api/HashBrowns.ExtensionMethods.yml\" sourcestartlinenumber=\"1\">Extension methods.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -38,7 +46,11 @@
           "relative_path": "api/HashBrowns.Hashing.BaseClasses.HashBaseClass.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.BaseClasses.HashBaseClass",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.BaseClasses.HashBaseClass.yml\" sourcestartlinenumber=\"1\">Hash base class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -48,7 +60,11 @@
           "relative_path": "api/HashBrowns.Hashing.BaseClasses.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.BaseClasses",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -58,7 +74,11 @@
           "relative_path": "api/HashBrowns.Hashing.Enums.HashingAlgorithms.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.Enums.HashingAlgorithms",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.Enums.HashingAlgorithms.yml\" sourcestartlinenumber=\"1\">Hashing algorithms.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -68,7 +88,11 @@
           "relative_path": "api/HashBrowns.Hashing.Enums.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.Enums",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -78,7 +102,11 @@
           "relative_path": "api/HashBrowns.Hashing.HMACMD5Hasher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.HMACMD5Hasher",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.HMACMD5Hasher.yml\" sourcestartlinenumber=\"1\">HMACHMACMD5</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -88,7 +116,11 @@
           "relative_path": "api/HashBrowns.Hashing.HMACSHA1Hasher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.HMACSHA1Hasher",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.HMACSHA1Hasher.yml\" sourcestartlinenumber=\"1\">HMACHMACSHA1</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -98,7 +130,11 @@
           "relative_path": "api/HashBrowns.Hashing.HMACSHA256Hasher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.HMACSHA256Hasher",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.HMACSHA256Hasher.yml\" sourcestartlinenumber=\"1\">HMACHMACSHA256</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -108,7 +144,11 @@
           "relative_path": "api/HashBrowns.Hashing.HMACSHA384Hasher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.HMACSHA384Hasher",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.HMACSHA384Hasher.yml\" sourcestartlinenumber=\"1\">HMACHMACSHA384</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -118,7 +158,11 @@
           "relative_path": "api/HashBrowns.Hashing.HMACSHA512Hasher.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.HMACSHA512Hasher",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.HMACSHA512Hasher.yml\" sourcestartlinenumber=\"1\">HMACHMACSHA512</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -128,7 +172,11 @@
           "relative_path": "api/HashBrowns.Hashing.Interfaces.IHash.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.Interfaces.IHash",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.Interfaces.IHash.yml\" sourcestartlinenumber=\"1\">Hash interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -138,7 +186,11 @@
           "relative_path": "api/HashBrowns.Hashing.Interfaces.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.Interfaces",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -148,7 +200,11 @@
           "relative_path": "api/HashBrowns.Hashing.MD5.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.MD5",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.MD5.yml\" sourcestartlinenumber=\"1\">MD5</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -158,7 +214,11 @@
           "relative_path": "api/HashBrowns.Hashing.SHA1.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.SHA1",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.SHA1.yml\" sourcestartlinenumber=\"1\">SHA1</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -168,7 +228,11 @@
           "relative_path": "api/HashBrowns.Hashing.SHA256.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.SHA256",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.SHA256.yml\" sourcestartlinenumber=\"1\">SHA256</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -178,7 +242,11 @@
           "relative_path": "api/HashBrowns.Hashing.SHA384.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.SHA384",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.SHA384.yml\" sourcestartlinenumber=\"1\">SHA384</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -188,7 +256,11 @@
           "relative_path": "api/HashBrowns.Hashing.SHA512.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing.SHA512",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Hashing.SHA512.yml\" sourcestartlinenumber=\"1\">SHA512</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -198,7 +270,11 @@
           "relative_path": "api/HashBrowns.Hashing.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Hashing",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -208,7 +284,11 @@
           "relative_path": "api/HashBrowns.Modules.HashBrownsModule.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Modules.HashBrownsModule",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Modules.HashBrownsModule.yml\" sourcestartlinenumber=\"1\">Registration module</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -218,7 +298,11 @@
           "relative_path": "api/HashBrowns.Modules.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Modules",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -228,7 +312,11 @@
           "relative_path": "api/HashBrowns.Symmetric.Aes.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.Aes",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.Aes.yml\" sourcestartlinenumber=\"1\">AES algorithm</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -238,7 +326,11 @@
           "relative_path": "api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.BaseClasses.SymmetricBaseClass.yml\" sourcestartlinenumber=\"1\">Symmetric base class</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -248,7 +340,11 @@
           "relative_path": "api/HashBrowns.Symmetric.BaseClasses.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.BaseClasses",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -258,7 +354,11 @@
           "relative_path": "api/HashBrowns.Symmetric.DES.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.DES",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.DES.yml\" sourcestartlinenumber=\"1\">DES</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -268,7 +368,11 @@
           "relative_path": "api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.Enums.SymmetricAlgorithms",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.Enums.SymmetricAlgorithms.yml\" sourcestartlinenumber=\"1\">Symmetric algorithms</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -278,7 +382,11 @@
           "relative_path": "api/HashBrowns.Symmetric.Enums.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.Enums",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -288,7 +396,11 @@
           "relative_path": "api/HashBrowns.Symmetric.Interfaces.ISymmetric.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.Interfaces.ISymmetric",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.Interfaces.ISymmetric.yml\" sourcestartlinenumber=\"1\">Symmetric interface</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -298,7 +410,11 @@
           "relative_path": "api/HashBrowns.Symmetric.Interfaces.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.Interfaces",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -308,7 +424,11 @@
           "relative_path": "api/HashBrowns.Symmetric.RC2.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.RC2",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.RC2.yml\" sourcestartlinenumber=\"1\">RC2</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -318,7 +438,11 @@
           "relative_path": "api/HashBrowns.Symmetric.Rijndael.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.Rijndael",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.Rijndael.yml\" sourcestartlinenumber=\"1\">Rijndael</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -328,7 +452,11 @@
           "relative_path": "api/HashBrowns.Symmetric.TripleDES.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric.TripleDES",
+      "Summary": "<p sourcefile=\"api/HashBrowns.Symmetric.TripleDES.yml\" sourcestartlinenumber=\"1\">TripleDES</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -338,7 +466,11 @@
           "relative_path": "api/HashBrowns.Symmetric.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns.Symmetric",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -348,7 +480,11 @@
           "relative_path": "api/HashBrowns.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "HashBrowns",
+      "Summary": null
     },
     {
       "type": "ManagedReference",
@@ -358,7 +494,11 @@
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.HashRegistration.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Microsoft.Extensions.DependencyInjection.HashRegistration",
+      "Summary": "<p sourcefile=\"api/Microsoft.Extensions.DependencyInjection.HashRegistration.yml\" sourcestartlinenumber=\"1\">Registration extension methods</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -368,7 +508,11 @@
           "relative_path": "api/Microsoft.Extensions.DependencyInjection.html"
         }
       },
-      "version": ""
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Microsoft.Extensions.DependencyInjection",
+      "Summary": null
     },
     {
       "type": "Conceptual",
