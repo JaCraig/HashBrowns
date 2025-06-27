@@ -2,6 +2,44 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.1"></a>
+## [4.0.1](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.1) (2025-06-27)
+
+### Bug Fixes
+
+* **dependencies:** update package references and patterns in configuration ([eee2a07](https://www.github.com/JaCraig/HashBrowns/commit/eee2a0745bb464b7b247c6cb8921a532d62ffeff))
+
+### Other
+
+* Merge pull request #314 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-6c34fbe01a ([ebf9817](https://www.github.com/JaCraig/HashBrowns/commit/ebf98174ad504c122eb4356be64f1aa8baf87e24))
+* Merge pull request #315 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-9e859d357f ([12ac12f](https://www.github.com/JaCraig/HashBrowns/commit/12ac12f0bdac0c0a1efbe9547881bbdd03022f46))
+* Merge pull request #316 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-ae4dc51d69 ([933942b](https://www.github.com/JaCraig/HashBrowns/commit/933942bf4175a9ba909b21f1187cce903a7e95a6))
+* Merge pull request #317 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-637ad84d5b ([93f7bce](https://www.github.com/JaCraig/HashBrowns/commit/93f7bce73b5990b54be3f35bdc3ea862abbaf560))
+* Merge pull request #318 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-37a7915f86 ([55833f2](https://www.github.com/JaCraig/HashBrowns/commit/55833f2c1ef7141d0a5f584db0d4a66aae510ff1))
+* Merge pull request #319 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-2d63af336a ([bbe287a](https://www.github.com/JaCraig/HashBrowns/commit/bbe287aff0146806a4f9a6e75e105345a2b58024))
+* Merge pull request #320 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-109af05799 ([bb39253](https://www.github.com/JaCraig/HashBrowns/commit/bb392531c435f46a19bc871cd1d740ffdfe4be4a))
+* Merge pull request #321 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-a3eea154c6 ([35f61de](https://www.github.com/JaCraig/HashBrowns/commit/35f61defe70e9eb8caf291c15662d303bc4b3a5f))
+* Merge pull request #322 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-293c44675e ([df63dfc](https://www.github.com/JaCraig/HashBrowns/commit/df63dfc8cc5125c9b6839b27f110d056ea72a459))
+* Merge pull request #323 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-8e84d5e7c4 ([3264397](https://www.github.com/JaCraig/HashBrowns/commit/3264397597a8df18b11554d96d1c22c5e098bfc6))
+* Merge pull request #324 from JaCraig/dependabot/nuget/HashBrowns.Example/dependencies-0d060393c4 ([da11e45](https://www.github.com/JaCraig/HashBrowns/commit/da11e451d10d778d2f8ee25322a6eca174296e85))
+* Merge pull request #325 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-cdc5eca79b ([a025ae9](https://www.github.com/JaCraig/HashBrowns/commit/a025ae96c5a58af977c4eac20034f6a2cec4a843))
+* Merge pull request #326 from JaCraig/dependabot/nuget/HashBrowns.Example/dependencies-40f9ec6cc2 ([aa9b2e9](https://www.github.com/JaCraig/HashBrowns/commit/aa9b2e9ec422d53a1e3c62189c7e90d3198a3cdc))
+* Merge pull request #327 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-d90f1eecb3 ([da0e0e0](https://www.github.com/JaCraig/HashBrowns/commit/da0e0e078acc27fa5be8ec701d885e8b5d62709c))
+* bump BigBook in /HashBrowns.Example in the dependencies group ([e7fbdb8](https://www.github.com/JaCraig/HashBrowns/commit/e7fbdb8108b01a12396d63b839d7e0321c1fe2b7))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([7f65909](https://www.github.com/JaCraig/HashBrowns/commit/7f65909ac26144ad30140e7125f17d4d02f782b1))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([569a97a](https://www.github.com/JaCraig/HashBrowns/commit/569a97ab23646534cae942c4556ad1304ff6061d))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([5bbb60b](https://www.github.com/JaCraig/HashBrowns/commit/5bbb60b7b4c7d69e2cb567f5d4ddc358d3e4dba2))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([0fc4457](https://www.github.com/JaCraig/HashBrowns/commit/0fc44573a0821bac16c8b39c397e022fcc68ade6))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([8e96036](https://www.github.com/JaCraig/HashBrowns/commit/8e96036cade4af5ec5518b9fed0f32156820ec37))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([aa2f13a](https://www.github.com/JaCraig/HashBrowns/commit/aa2f13a78bd71eaa1dca0bcee0a0bbe191535c6a))
+* bump Mecha.xUnit in /HashBrowns.Tests in the dependencies group ([edc2553](https://www.github.com/JaCraig/HashBrowns/commit/edc2553ee8d2c7d24b0cd1fc9a04e123e5942851))
+* bump the dependencies group in /HashBrowns.Example with 2 updates ([8972783](https://www.github.com/JaCraig/HashBrowns/commit/89727833b2eef3ded8da1bbefc475a730e755001))
+* bump the dependencies group in /HashBrowns.Tests with 2 updates ([5d8c67f](https://www.github.com/JaCraig/HashBrowns/commit/5d8c67f3d6854aaa4cae5e84b2f26552fea4691d))
+* bump the dependencies group in /HashBrowns.Tests with 2 updates ([82f6589](https://www.github.com/JaCraig/HashBrowns/commit/82f658931c8dbe15b11800d0d3fe0e5b489bd2ef))
+* bump the dependencies group in /HashBrowns.Tests with 2 updates ([28938c1](https://www.github.com/JaCraig/HashBrowns/commit/28938c17274057afc2d9451b08f50f21552f2cb1))
+* bump the dependencies group in /HashBrowns.Tests with 2 updates ([36bb583](https://www.github.com/JaCraig/HashBrowns/commit/36bb5836c9b45e35ee6790f822fb8db1d25c299e))
+* bump xunit.runner.visualstudio ([373c0f3](https://www.github.com/JaCraig/HashBrowns/commit/373c0f3f9a61b4beb3f5750748756869a6b48434))
+
 <a name="4.0.0"></a>
 ## [4.0.0](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.0) (2024-11-24)
 
