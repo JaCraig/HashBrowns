@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.7"></a>
+## [4.0.7](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.7) (2026-03-12)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([2f64612](https://www.github.com/JaCraig/HashBrowns/commit/2f64612f48318d10bf3c6247b772ba19a4bc99c5))
+
+### Other
+
+* Merge pull request #381 from JaCraig/dependabot/nuget/dot-config/dependencies-ef2d746a42 ([329bc39](https://www.github.com/JaCraig/HashBrowns/commit/329bc39c9d3825f0908100d4d0f6dfdca804a4bf))
+* Merge pull request #382 from JaCraig/dependabot/nuget/dot-config/dependencies-8306a1d76a ([3844f67](https://www.github.com/JaCraig/HashBrowns/commit/3844f6715f1301d87b0f6c19e34638574186f8a8))
+* Bump the dependencies group with 2 updates ([4c48a1c](https://www.github.com/JaCraig/HashBrowns/commit/4c48a1c3192d3c9d16b0c21a712758f8435d1353))
+
 <a name="4.0.6"></a>
 ## [4.0.6](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.6) (2026-03-11)
 
