@@ -9,7 +9,7 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/JaCraig/HashBrowns/</PackageProjectUrl>
     <PackageTags>MD5, SHA1, SHA256, SHA512, AES, DES, TripleDES, Rijndael</PackageTags>
-    <Version>4.0.7</Version>
+    <Version>4.0.8</Version>
     <Nullable>enable</Nullable>
     <Title>HashBrowns</Title>
     <PackageIcon>Icon.png</PackageIcon>
@@ -53,9 +53,7 @@
     </PackageReference>
   </ItemGroup>
   <Target Name="Husky" BeforeTargets="Restore;CollectPackageReferences" Condition="'$(HUSKY)' != 0">
-    <Exec Command="dotnet tool restore" StandardOutputImportance="Low"
-      StandardErrorImportance="High" />
-    <Exec Command="dotnet husky install" StandardOutputImportance="Low"
-      StandardErrorImportance="High" WorkingDirectory=".." />
+    <Exec Command="dotnet tool restore" StandardOutputImportance="Low" StandardErrorImportance="High" />
+    <Exec Command="dotnet husky install" StandardOutputImportance="Low" StandardErrorImportance="High" WorkingDirectory=".." />
   </Target>
 </Project>

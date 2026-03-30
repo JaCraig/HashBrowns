@@ -2,6 +2,26 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.8"></a>
+## [4.0.8](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.8) (2026-03-30)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([e14d210](https://www.github.com/JaCraig/HashBrowns/commit/e14d210c3f16ac3f7845ffe1226d9cc6c859b512))
+
+### Other
+
+* Merge pull request #384 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-1dbec82130 ([45e82c1](https://www.github.com/JaCraig/HashBrowns/commit/45e82c1a956b8262fc103c819af5f828933ae796))
+* Merge pull request #386 from JaCraig/dependabot/nuget/dot-config/dependencies-4fa4d863e1 ([20dd56c](https://www.github.com/JaCraig/HashBrowns/commit/20dd56cd67278b022cc13e6ad1374cfd0fba5d07))
+* Merge pull request #387 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-9b41273f72 ([88a4983](https://www.github.com/JaCraig/HashBrowns/commit/88a498381bc0032b958e6c28ea1d6aaa5d6cf834))
+* Merge pull request #388 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-4bb5c90d9e ([6ee9f4d](https://www.github.com/JaCraig/HashBrowns/commit/6ee9f4d29134ce3c6bb7b64e5960921c5e9c4f17))
+* Merge pull request #389 from JaCraig/dependabot/nuget/HashBrowns/dependencies-b11594b647 ([ee05445](https://www.github.com/JaCraig/HashBrowns/commit/ee05445b6d0dc46aa7c4d0b32d8773749371baec))
+* Bump the dependencies group with 1 update ([5b8a607](https://www.github.com/JaCraig/HashBrowns/commit/5b8a6070980790d964e2f13d8b2bf4b17d569ea5))
+* Bump the dependencies group with 2 updates ([0580e0c](https://www.github.com/JaCraig/HashBrowns/commit/0580e0cbf7164aae4e69ea022902da4147dc012a))
+* Bump the dependencies group with 2 updates ([1177b74](https://www.github.com/JaCraig/HashBrowns/commit/1177b74a32807ba97026c62e5498a0adc99e4e5f))
+* Bump the dependencies group with 3 updates ([fe4774a](https://www.github.com/JaCraig/HashBrowns/commit/fe4774a24d6cede19c259623f883fc85d9e89431))
+* **dependencies:** update dependency schedules and target frameworks ([4110ce3](https://www.github.com/JaCraig/HashBrowns/commit/4110ce3968d874dfa82a63eb3607796ca942535c))
+
 <a name="4.0.7"></a>
 ## [4.0.7](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.7) (2026-03-12)
 
