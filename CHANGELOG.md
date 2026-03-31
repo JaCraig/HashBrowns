@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.9"></a>
+## [4.0.9](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.9) (2026-03-31)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([9977c0d](https://www.github.com/JaCraig/HashBrowns/commit/9977c0da33de9d5c5d41f4e7c18f5179a9d562c5))
+
+### Other
+
+* Merge pull request #390 from JaCraig/dependabot/nuget/HashBrowns/dependencies-705dce8437 ([64ffdd3](https://www.github.com/JaCraig/HashBrowns/commit/64ffdd3f1948e09041334f7f39bccf37172a362a))
+
 <a name="4.0.8"></a>
 ## [4.0.8](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.8) (2026-03-30)
 
