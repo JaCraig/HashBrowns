@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.19"></a>
+## [4.0.19](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.19) (2026-05-13)
+
+### Bug Fixes
+
+* Bump the dependencies group with 2 updates ([273678d](https://www.github.com/JaCraig/HashBrowns/commit/273678d03e003d815d3d978bfa7895a9a7f087e3))
+
+### Other
+
+* Merge pull request #406 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-a20cbe5848 ([cb6c80a](https://www.github.com/JaCraig/HashBrowns/commit/cb6c80aac9d533687c7744f4aca33973a13537c9))
+* Merge pull request #407 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-89e9299b9c ([c5318f3](https://www.github.com/JaCraig/HashBrowns/commit/c5318f3bdd4b1201e9b161c57959c9d13aedcd7e))
+* Merge pull request #408 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-644153ef44 ([e726a33](https://www.github.com/JaCraig/HashBrowns/commit/e726a339c585a8c03273933a8cd181d4feffdc2f))
+* Merge pull request #409 from JaCraig/dependabot/nuget/HashBrowns/dependencies-116d79d185 ([e0a9847](https://www.github.com/JaCraig/HashBrowns/commit/e0a984775ff9d0c92d8fad7b09af435f3525de42))
+* Merge pull request #410 from JaCraig/dependabot/nuget/HashBrowns/dependencies-116d79d185 ([0bee71d](https://www.github.com/JaCraig/HashBrowns/commit/0bee71de64686d487d0e27d0027aae92272947cc))
+* Bump the dependencies group with 1 update ([4252d68](https://www.github.com/JaCraig/HashBrowns/commit/4252d6865b5aaea3f5657c15cfbf2111d331d200))
+* Bump the dependencies group with 2 updates ([14ddcac](https://www.github.com/JaCraig/HashBrowns/commit/14ddcac6e25e44f0637681f07cbd4616742fd707))
+* Bump the dependencies group with 2 updates ([3bbd133](https://www.github.com/JaCraig/HashBrowns/commit/3bbd133acd71b5d3ced685df6778b56f0ee11b8b))
+* Bump the dependencies group with 3 updates ([a49826d](https://www.github.com/JaCraig/HashBrowns/commit/a49826db32a3865d2e85a4dbb25319b098fbb531))
+
 <a name="4.0.18"></a>
 ## [4.0.18](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.18) (2026-04-28)
 
