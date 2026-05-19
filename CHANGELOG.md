@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.22"></a>
+## [4.0.22](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.22) (2026-05-19)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([069aae7](https://www.github.com/JaCraig/HashBrowns/commit/069aae776ccaded39c875198f8a73c82f1a4cf09))
+
+### Other
+
+* Merge pull request #413 from JaCraig/dependabot/nuget/HashBrowns/dependencies-d8c77d0ffb ([0e37b69](https://www.github.com/JaCraig/HashBrowns/commit/0e37b69c55557c3575d94277bf9a5ca625180ae5))
+* **copilot:** add instructions for commit message formatting ([5ff7d03](https://www.github.com/JaCraig/HashBrowns/commit/5ff7d0375fb76c835949ff94dd17146210227e97))
+
 <a name="4.0.21"></a>
 ## [4.0.21](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.21) (2026-05-15)
 
