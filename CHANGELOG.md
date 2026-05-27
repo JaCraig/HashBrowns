@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.23"></a>
+## [4.0.23](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.23) (2026-05-27)
+
+### Bug Fixes
+
+* **workflows:** remove PERSONAL_ACCESS_TOKEN from workflows ([c243dcb](https://www.github.com/JaCraig/HashBrowns/commit/c243dcb0be481744f446f8454089cf3df46b55e3))
+
+### Other
+
+* Merge pull request #414 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-4b47ae212b ([6d43c7f](https://www.github.com/JaCraig/HashBrowns/commit/6d43c7fd7fbec43742149399c150170e248b4041))
+* Bump the dependencies group with 3 updates ([fa41f81](https://www.github.com/JaCraig/HashBrowns/commit/fa41f81f1e3fe2e679aa0e629d5f27b29e2b41c0))
+
 <a name="4.0.22"></a>
 ## [4.0.22](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.22) (2026-05-19)
 
