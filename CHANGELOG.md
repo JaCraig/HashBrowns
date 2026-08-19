@@ -2,6 +2,37 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="4.0.24"></a>
+## [4.0.24](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.24) (2026-08-19)
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([53062a3](https://www.github.com/JaCraig/HashBrowns/commit/53062a39c38a4e26a8bf95097c9f78926f8ec461))
+* Bump the dependencies group with 1 update ([95dac78](https://www.github.com/JaCraig/HashBrowns/commit/95dac785d8fdabfbc0093b3f6c4d4d72f2ff0950))
+* Bump the dependencies group with 1 update ([7332504](https://www.github.com/JaCraig/HashBrowns/commit/7332504c5786e4c431634de5a311fb6d1485c531))
+* Bump the dependencies group with 2 updates ([47b1a8f](https://www.github.com/JaCraig/HashBrowns/commit/47b1a8f2c780fe3e986cd909c681e139453b964e))
+
+### Other
+
+* Merge pull request #415 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-041891a2d4 ([5b64285](https://www.github.com/JaCraig/HashBrowns/commit/5b6428540cefe7665d070a4756aca267b87769b6))
+* Merge pull request #416 from JaCraig/dependabot/nuget/HashBrowns/dependencies-e1bae83de4 ([3b92534](https://www.github.com/JaCraig/HashBrowns/commit/3b925349181519554b74d39c032c5151e71e3e97))
+* Merge pull request #417 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-3bf6d02c19 ([cd050b8](https://www.github.com/JaCraig/HashBrowns/commit/cd050b80458e49d396576351899bc7e3bf5ddca9))
+* Merge pull request #418 from JaCraig/dependabot/nuget/HashBrowns/dependencies-991ee26f7c ([adacfc5](https://www.github.com/JaCraig/HashBrowns/commit/adacfc580ac36233988603bc745c95d64e6defdb))
+* Merge pull request #419 from JaCraig/dependabot/nuget/HashBrowns/dependencies-991ee26f7c ([168fa4d](https://www.github.com/JaCraig/HashBrowns/commit/168fa4de4989ae7b5e25bff1f51b69bdca73bf44))
+* Merge pull request #420 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-407341980e ([fad9835](https://www.github.com/JaCraig/HashBrowns/commit/fad98356c190ce5c057d4d53bfd079e7e21273ce))
+* Merge pull request #421 from JaCraig/dependabot/nuget/HashBrowns/dependencies-5c1cd76f7e ([94e92b2](https://www.github.com/JaCraig/HashBrowns/commit/94e92b2d9e5a0cbb335b7a9a126454d31d5591a1))
+* Merge pull request #422 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-b096cd2a18 ([5338957](https://www.github.com/JaCraig/HashBrowns/commit/5338957781cf94d587a79e8535abda2310b05189))
+* Merge pull request #423 from JaCraig/dependabot/nuget/dot-config/dependencies-d580172a4f ([2147444](https://www.github.com/JaCraig/HashBrowns/commit/2147444cc814354de9d63ae16f1e30e55c5045a2))
+* Merge pull request #424 from JaCraig/dependabot/nuget/HashBrowns/dependencies-637020aa5a ([2471c26](https://www.github.com/JaCraig/HashBrowns/commit/2471c26d05900e6669f0fd841340d49d44217b1e))
+* Merge pull request #425 from JaCraig/dependabot/nuget/HashBrowns.Tests/dependencies-b18f94246c ([aa4509e](https://www.github.com/JaCraig/HashBrowns/commit/aa4509e985aaeb645c3320e9f206fa40c0a1aed0))
+* Bump Microsoft.NET.Test.Sdk from 18.5.1 to 18.6.0 ([38a4a74](https://www.github.com/JaCraig/HashBrowns/commit/38a4a74a0db06b75708bb8f76cf33452ca99eba4))
+* Bump the dependencies group with 1 update ([9ecd615](https://www.github.com/JaCraig/HashBrowns/commit/9ecd615dfa382283c6d83630374d49d5d0c7bad1))
+* Bump the dependencies group with 1 update ([8aceb64](https://www.github.com/JaCraig/HashBrowns/commit/8aceb64faa63e1b927e6dfd64dedc20939269b9a))
+* Bump the dependencies group with 1 update ([b8a6294](https://www.github.com/JaCraig/HashBrowns/commit/b8a629437b59cf4e20152c677118ee535684c5c5))
+* Bump the dependencies group with 2 updates ([db3ad09](https://www.github.com/JaCraig/HashBrowns/commit/db3ad091ec74c991a6bb52e36fbb97486c15de5a))
+* Bump the dependencies group with 3 updates ([d0b7841](https://www.github.com/JaCraig/HashBrowns/commit/d0b78410d014265985fddf2d52aa9b7b20c02cfd))
+* Bump the dependencies group with 4 updates ([daa23f6](https://www.github.com/JaCraig/HashBrowns/commit/daa23f6fdcc47fb80fe3c6b0452be8dd9bcaeb38))
+
 <a name="4.0.23"></a>
 ## [4.0.23](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.23) (2026-05-27)
 
