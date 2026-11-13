@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [versionize](https://github.com/versionize/versionize) for commit guidelines.
 
+<a name="5.0.0"></a>
+## [5.0.0](https://www.github.com/JaCraig/HashBrowns/releases/tag/v5.0.0) (2026-11-13)
+
+### Features
+
+* **frameworks:** upgrade .NET targets and dependencies ([8ef44f4](https://www.github.com/JaCraig/HashBrowns/commit/8ef44f4518802214177eb58ea501e3bd27aed47a))
+
+### Bug Fixes
+
+* Bump the dependencies group with 1 update ([b0b4b0d](https://www.github.com/JaCraig/HashBrowns/commit/b0b4b0d3194515edcf815905e7eb62d09e9b9c70))
+
+### Breaking Changes
+
+* **frameworks:** upgrade .NET targets and dependencies ([8ef44f4](https://www.github.com/JaCraig/HashBrowns/commit/8ef44f4518802214177eb58ea501e3bd27aed47a))
+
+### Other
+
+* Merge pull request #435 from JaCraig/dependabot/nuget/HashBrowns/dependencies-2186410a91 ([6f07bb5](https://www.github.com/JaCraig/HashBrowns/commit/6f07bb52df9b03872a927e8581deaefe387e7c9a))
+
 <a name="4.0.25"></a>
 ## [4.0.25](https://www.github.com/JaCraig/HashBrowns/releases/tag/v4.0.25) (2026-11-08)
 
